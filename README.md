@@ -7,9 +7,11 @@ Bienvenido al repositorio de **Ingeniería de Requisitos**. Este repositorio est
 Este repositorio incluye:
 
 - Documentos de especificación de requisitos
-- Ejemplos de productos de trabajo
-- Plantillas y formatos estándar
-- Guías y directrices para la documentación
-- Tareas y proyectos del curso
+- Tareas
+- Perfil del Proyecto
+- Cronograma de Actividades
+- Documento del Sistema
+- Lista de Interesados
+- Entregables (videos de entrevista)
 
 
