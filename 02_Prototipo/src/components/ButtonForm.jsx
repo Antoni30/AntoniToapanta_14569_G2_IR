@@ -1,8 +1,8 @@
 import PropTypes from 'prop-types'
 
-export function ButtonForm({ children }) {
+export function ButtonForm({ children,id }) {
     return (
-        <button type='submit' className="button">{children}</button>
+        <button type='submit' id={id} className="button">{children}</button>
     )
 }
 

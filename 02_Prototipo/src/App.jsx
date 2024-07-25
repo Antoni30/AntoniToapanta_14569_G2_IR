@@ -31,8 +31,8 @@ function App() {
                 <InputText inputName={'lastname'} handleInput={handleName}> apellido </InputText>
                 <InputText inputName={'email'} handleInput={handleEmail}> correo </InputText>
                 <InputText inputName={'telephone'} handleInput={handleTelephone}> teléfono </InputText>
-                <ButtonForm> Enviar </ButtonForm>
-                <p className={`form__message ${formMessageClassName}`}>
+                <ButtonForm id={1}> Enviar </ButtonForm>
+                <p id='mensaje_exito' className={`form__message ${formMessageClassName}`}>
                     {formMessage[formMessageClassName]}
                 </p>
             </Form>
