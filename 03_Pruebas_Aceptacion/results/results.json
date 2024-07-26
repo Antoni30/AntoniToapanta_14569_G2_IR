@@ -1,0 +1,292 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "formulario-de-prueba;enviar-formulario-exitosamente",
+        "keyword": "Scenario",
+        "line": 2,
+        "name": "Enviar formulario exitosamente",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "que estoy en la página del formulario",
+            "match": {
+              "location": "features\\step_definitions\\steps.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1868804499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 4,
+            "name": "lleno el formulario con datos válidos",
+            "match": {
+              "location": "features\\step_definitions\\steps.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 573547200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "envío el formulario",
+            "match": {
+              "location": "features\\step_definitions\\steps.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 65893299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "debería ver un mensaje de éxito",
+            "match": {
+              "location": "features\\step_definitions\\steps.js:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 27101500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "genero un PDF con la captura de pantalla \"Envio Formulario Correcto\"",
+            "match": {
+              "location": "features\\step_definitions\\steps.js:52"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 221219599
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 85599700
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "formulario-de-prueba;enviar-formulario-con-campos-obligatorios-vacíos",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Enviar formulario con campos obligatorios vacíos",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "que estoy en la página del formulario",
+            "match": {
+              "location": "features\\step_definitions\\steps.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1585264600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "dejo el campo \"firstname\" vacío",
+            "match": {
+              "location": "features\\step_definitions\\steps.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 433600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "lleno el campo \"email\" con \"prueba@example.com\"",
+            "match": {
+              "location": "features\\step_definitions\\steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 273937899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "envío el formulario",
+            "match": {
+              "location": "features\\step_definitions\\steps.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 107680599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "genero un PDF con la captura de pantalla \"Formulario incompleto\"",
+            "match": {
+              "location": "features\\step_definitions\\steps.js:52"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 180303100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "debería ver un mensaje de error indicando \"Formulario incompleto\"",
+            "match": {
+              "location": "features\\step_definitions\\steps.js:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 35849000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 97525099
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "formulario-de-prueba;enviar-formulario-con-un-formato-de-correo-electrónico-inválido",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "Enviar formulario con un formato de correo electrónico inválido",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 18,
+            "name": "que estoy en la página del formulario",
+            "match": {
+              "location": "features\\step_definitions\\steps.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1537566200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "lleno el campo \"firstname\" con \"Nombre de Prueba\"",
+            "match": {
+              "location": "features\\step_definitions\\steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 162376299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "lleno el campo \"email\" con \"correo_invalido\"",
+            "match": {
+              "location": "features\\step_definitions\\steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 217522399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "envío el formulario",
+            "match": {
+              "location": "features\\step_definitions\\steps.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 108283000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "debería ver un mensaje de error indicando \"El formato del correo electrónico no es válido\"",
+            "match": {
+              "location": "features\\step_definitions\\steps.js:45"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 32852199,
+              "error_message": "Error: El mensaje de error fue: Formulario incompleto, pero se esperaba: El formato del correo electrónico no es válido\n    at World.<anonymous> (C:\\Univerdiad\\GitUniversidad\\AntoniToapanta_14569_G2_IR\\03_Pruebas_Aceptacion\\features\\step_definitions\\steps.js:48:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "genero un PDF con la captura de pantalla \"El formato del correo electrónico no es válido\"",
+            "match": {
+              "location": "features\\step_definitions\\steps.js:52"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 69604499
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "formulario-de-prueba",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Formulario de prueba",
+    "tags": [],
+    "uri": "features\\formulario.feature"
+  }
+]
