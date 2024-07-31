@@ -19,7 +19,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1868804499
+              "duration": 1459395300
             }
           },
           {
@@ -32,7 +32,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 573547200
+              "duration": 477716300
             }
           },
           {
@@ -45,7 +45,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 65893299
+              "duration": 64974600
             }
           },
           {
@@ -58,7 +58,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 27101500
+              "duration": 31293999
             }
           },
           {
@@ -71,7 +71,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 221219599
+              "duration": 214525799
             }
           },
           {
@@ -79,7 +79,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 85599700
+              "duration": 95564300
             }
           }
         ],
@@ -103,7 +103,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1585264600
+              "duration": 1163855000
             }
           },
           {
@@ -116,7 +116,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 433600
+              "duration": 267099
             }
           },
           {
@@ -129,7 +129,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 273937899
+              "duration": 144920500
             }
           },
           {
@@ -142,7 +142,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 107680599
+              "duration": 60882999
             }
           },
           {
@@ -155,7 +155,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 180303100
+              "duration": 136101499
             }
           },
           {
@@ -168,7 +168,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 35849000
+              "duration": 26051900
             }
           },
           {
@@ -176,7 +176,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 97525099
+              "duration": 44276600
             }
           }
         ],
@@ -200,7 +200,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1537566200
+              "duration": 1259175999
             }
           },
           {
@@ -213,7 +213,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 162376299
+              "duration": 135786199
             }
           },
           {
@@ -226,7 +226,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 217522399
+              "duration": 147171800
             }
           },
           {
@@ -239,34 +239,34 @@
             },
             "result": {
               "status": "passed",
-              "duration": 108283000
+              "duration": 59624399
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 22,
-            "name": "debería ver un mensaje de error indicando \"El formato del correo electrónico no es válido\"",
+            "name": "genero un PDF con la captura de pantalla \"El formato del correo electrónico no es válido\"",
             "match": {
-              "location": "features\\step_definitions\\steps.js:45"
+              "location": "features\\step_definitions\\steps.js:52"
             },
             "result": {
-              "status": "failed",
-              "duration": 32852199,
-              "error_message": "Error: El mensaje de error fue: Formulario incompleto, pero se esperaba: El formato del correo electrónico no es válido\n    at World.<anonymous> (C:\\Univerdiad\\GitUniversidad\\AntoniToapanta_14569_G2_IR\\03_Pruebas_Aceptacion\\features\\step_definitions\\steps.js:48:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+              "status": "passed",
+              "duration": 126967599
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 23,
-            "name": "genero un PDF con la captura de pantalla \"El formato del correo electrónico no es válido\"",
+            "name": "debería ver un mensaje de error indicando \"El formato del correo electrónico no es válido\"",
             "match": {
-              "location": "features\\step_definitions\\steps.js:52"
+              "location": "features\\step_definitions\\steps.js:45"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "failed",
+              "duration": 30662000,
+              "error_message": "Error: El mensaje de error fue: Formulario incompleto, pero se esperaba: El formato del correo electrónico no es válido\n    at World.<anonymous> (C:\\Univerdiad\\GitUniversidad\\AntoniToapanta_14569_G2_IR\\03_Pruebas_Aceptacion\\features\\step_definitions\\steps.js:48:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
             }
           },
           {
@@ -274,7 +274,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 69604499
+              "duration": 47641599
             }
           }
         ],

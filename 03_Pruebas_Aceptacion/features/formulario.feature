@@ -19,8 +19,8 @@ Scenario: Enviar formulario con un formato de correo electrónico inválido
     When lleno el campo "firstname" con "Nombre de Prueba"
     And lleno el campo "email" con "correo_invalido"
     And envío el formulario
-    Then debería ver un mensaje de error indicando "El formato del correo electrónico no es válido"
-    And genero un PDF con la captura de pantalla "El formato del correo electrónico no es válido"
-
+    Then genero un PDF con la captura de pantalla "El formato del correo electrónico no es válido"
+    And debería ver un mensaje de error indicando "El formato del correo electrónico no es válido"
+   
     
    
