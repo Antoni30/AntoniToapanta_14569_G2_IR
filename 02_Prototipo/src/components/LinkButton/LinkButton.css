@@ -1,0 +1,11 @@
+.link {
+    text-decoration: none;
+    color: currentColor;
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+
+    &:hover{
+        text-decoration: underline;
+    }
+}

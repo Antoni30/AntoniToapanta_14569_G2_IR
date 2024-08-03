@@ -1,0 +1,15 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    align-items: center;
+    background-color: #F3F4F6;
+    padding-top: var(--vertical-padding);
+    padding-bottom: var(--vertical-padding);
+}
+
+.footer__item {
+    display: flex;
+    column-gap: 8px;
+    align-items: center;
+}

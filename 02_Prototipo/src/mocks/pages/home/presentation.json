@@ -1,0 +1,23 @@
+[
+    {
+        "img": "https://jumanji.livspace-cdn.com/magazine/wp-content/uploads/sites/3/2020/07/28033809/Cover-18.png",
+        "title": "Title image 1",
+        "description": "Description with a large text of image 1",
+        "alt": "Landscape of highway",
+        "viewMore": "/about_us"
+    },
+    {
+        "img": "https://asset.skoiy.com/9b80a6f781ff336f/yrwwqpnyb7ys.jpg?w=970&q=90",
+        "title": "Title image 2",
+        "description": "Description with a large text of image 2",
+        "alt": "Landscape of highway",
+        "viewMore": "/about_us"
+    },
+    {
+        "img": "https://media.designcafe.com/wp-content/uploads/2022/07/29185240/industrial-rustic-living-room-in-earthy-tones.jpg",
+        "title": "Title image 3",
+        "description": "Description with a large text of image 3",
+        "alt": "Landscape of highway",
+        "viewMore": "/about_us"
+    }
+]

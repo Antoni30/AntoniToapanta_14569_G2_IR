@@ -1,0 +1,9 @@
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 48px;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--vertical-padding) var(--horizontal-padding);
+    background-color: #F3F4F6;
+}

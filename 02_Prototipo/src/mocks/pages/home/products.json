@@ -1,0 +1,48 @@
+[
+    [
+        {
+            "img": "https://sdg-migration-id.s3.amazonaws.com/Interior-Design-idx191101_market40-11.19.jpg",
+            "title": "Title image 1",
+            "description": "Description with a large text of image 1",
+            "alt": "Landscape of highway",
+            "viewMore": "/products"
+        },
+        {
+            "img": "https://www.ryancreativeliving.com/wp-content/uploads/2023/06/Upholstered-Armchairs-in-Grey-Colour-with-Wooden-Leg.webp",
+            "title": "Title image 2",
+            "description": "Description with a large text of image 2",
+            "alt": "Landscape of highway",
+            "viewMore": "/products"
+        },
+        {
+            "img": "https://brabbu.com/blog/wp-content/uploads/2021/05/New-Products-Modern-Products-for-Interiors-Filled-with-Personality.jpg",
+            "title": "Title image 3",
+            "description": "Description with a large text of image 3",
+            "alt": "Landscape of highway",
+            "viewMore": "/products"
+        }
+    ],
+    [
+        {
+            "img": "https://lusive.com/images/uploads/content/9MostUnique01.jpg",
+            "title": "Title image 1",
+            "description": "Description with a large text of image 1",
+            "alt": "Landscape of highway",
+            "viewMore": "/products"
+        },
+        {
+            "img": "https://www.areyour.org/wp-content/uploads/2022/04/Articolo-aprile-22-1024x863.jpg",
+            "title": "Title image 2",
+            "description": "Description with a large text of image 2",
+            "alt": "Landscape of highway",
+            "viewMore": "/products"
+        },
+        {
+            "img": "https://tangramfurnishers.co.uk/wp-content/uploads/2022/03/Interior-Design-Product-Specifications-and-Ordering.jpg",
+            "title": "Title image 3",
+            "description": "Description with a large text of image 3",
+            "alt": "Landscape of highway",
+            "viewMore": "/products"
+        }
+    ]
+]

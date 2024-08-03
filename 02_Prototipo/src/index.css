@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+address {
+  display: inline;
+}
+
+input[type='text'],
+input[type='tel'],
+input[type='email'] {
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid gray;
+}

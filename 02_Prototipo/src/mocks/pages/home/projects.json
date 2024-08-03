@@ -1,0 +1,71 @@
+[
+    [
+        {
+            "img": "https://margaritabravo.com/wp-content/uploads/2018/01/COLORADO-BOULDER-9.png.webp",
+            "title": "Title image 1",
+            "description": "Description with a large text of image 1",
+            "alt": "Landscape of highway",
+            "viewMore": "/projects"
+        },
+        {
+            "img": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/08f5113f-21fe-4397-b92a-1e9509f2124d",
+            "title": "Title image 2",
+            "description": "Description with a large text of image 2",
+            "alt": "Landscape of highway",
+            "viewMore": "/projects"
+        },
+        {
+            "img": "https://margaritabravo.com/wp-content/uploads/2018/01/COLORADO-BOULDER-9.png.webp",
+            "title": "Title image 3",
+            "description": "Description with a large text of image 3",
+            "alt": "Landscape of highway",
+            "viewMore": "/projects"
+        }
+    ],
+    [
+        {
+            "img": "https://i.insider.com/57a9fdfc04732f18008b482b?width=700&format=jpeg&auto=webp",
+            "title": "Title image 1",
+            "description": "Description with a large text of image 1",
+            "alt": "Landscape of highway",
+            "viewMore": "/projects"
+        },
+        {
+            "img": "https://i.ytimg.com/vi/mBkW5e5LLz4/hqdefault.jpg",
+            "title": "Title image 2",
+            "description": "Description with a large text of image 2",
+            "alt": "Landscape of highway",
+            "viewMore": "/projects"
+        },
+        {
+            "img": "https://i.insider.com/57a9fe1104732f19008b4804?width=700&format=jpeg&auto=webp",
+            "title": "Title image 3",
+            "description": "Description with a large text of image 3",
+            "alt": "Landscape of highway",
+            "viewMore": "/projects"
+        }
+    ],
+    [
+        {
+            "img": "https://i.insider.com/57aa162704732fb70f8b475f?width=700&format=jpeg&auto=webp",
+            "title": "Title image 1",
+            "description": "Description with a large text of image 1",
+            "alt": "Landscape of highway",
+            "viewMore": "/projects"
+        },
+        {
+            "img": "https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/7ec31f40-6d1e-4f27-828b-89bb4c23a4a7",
+            "title": "Title image 2",
+            "description": "Description with a large text of image 2",
+            "alt": "Landscape of highway",
+            "viewMore": "/projects"
+        },
+        {
+            "img": "https://i.insider.com/57aa164ae4f69118008b481d?width=700&format=jpeg&auto=webp",
+            "title": "Title image 3",
+            "description": "Description with a large text of image 3",
+            "alt": "Landscape of highway",
+            "viewMore": "/projects"
+        }
+    ]
+]

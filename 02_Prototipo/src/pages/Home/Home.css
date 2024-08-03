@@ -1,0 +1,23 @@
+.presentation {
+    width: 100%;
+    margin-bottom: 80px;
+    height: 90vh;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 16px;
+    height: 380px;
+}
+
+.services {
+    height: 400px;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 16px;
+    height: 380px;
+}

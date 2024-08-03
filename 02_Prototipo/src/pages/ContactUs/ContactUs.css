@@ -1,0 +1,5 @@
+.section__contact-us {
+    display: flex;
+    align-items: center;
+    height: 50vh;
+}
