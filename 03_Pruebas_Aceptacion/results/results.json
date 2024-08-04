@@ -4,6 +4,57 @@
     "elements": [
       {
         "description": "",
+        "id": "pagina-contactanos;se-pude-visualizar-los-la-pagina-de-contactanos",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Se Pude visualizar los la pagina de Contactanos",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "Estoy en la pagina de  Contactanos",
+            "match": {
+              "location": "features\\step_definitions\\steps_about_us.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1349690200
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 298999
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 185300
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "pagina-contactanos",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Pagina Contactanos",
+    "tags": [],
+    "uri": "features\\About_us.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
         "id": "pagina-detalles-producto;se-pude-visualizar-los-la-pagina-de-detalles-productos",
         "keyword": "Scenario",
         "line": 3,
@@ -15,11 +66,11 @@
             "line": 4,
             "name": "Estoy en la pagina de  detalles Productos",
             "match": {
-              "location": "features\\step_definitions\\steps_productos.js:13"
+              "location": "features\\step_definitions\\steps_productos.js:6"
             },
             "result": {
               "status": "passed",
-              "duration": 1344079499
+              "duration": 1337237900
             }
           },
           {
@@ -27,7 +78,15 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 273599
+              "duration": 165300
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 208999
             }
           }
         ],
@@ -40,7 +99,7 @@
     "keyword": "Feature",
     "name": "Pagina detalles producto",
     "tags": [],
-    "uri": "features\\Productos.feature"
+    "uri": "features\\Detalle_productos.feature"
   },
   {
     "description": "",
@@ -58,11 +117,11 @@
             "line": 4,
             "name": "Estoy en la pagina de  detalles Proyecto",
             "match": {
-              "location": "features\\step_definitions\\steps_proyecto.js:13"
+              "location": "features\\step_definitions\\steps_proyecto.js:8"
             },
             "result": {
               "status": "passed",
-              "duration": 1580892600
+              "duration": 1330945799
             }
           },
           {
@@ -70,7 +129,15 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 232999
+              "duration": 147399
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 154600
             }
           }
         ],
@@ -83,7 +150,7 @@
     "keyword": "Feature",
     "name": "Pagina detalles Proyecto",
     "tags": [],
-    "uri": "features\\Proyecto.feature"
+    "uri": "features\\Detalles_proyectos.feature"
   },
   {
     "description": "",
@@ -101,11 +168,11 @@
             "line": 4,
             "name": "Estoy en la pagina detalles servicios",
             "match": {
-              "location": "features\\step_definitions\\steps_servicios.js:13"
+              "location": "features\\step_definitions\\steps_servicios.js:9"
             },
             "result": {
               "status": "passed",
-              "duration": 2011856199
+              "duration": 1307970699
             }
           },
           {
@@ -113,7 +180,15 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 182399
+              "duration": 273200
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 84699
             }
           }
         ],
@@ -126,7 +201,7 @@
     "keyword": "Feature",
     "name": "Pagina deatalles servicios",
     "tags": [],
-    "uri": "features\\Servicios.feature"
+    "uri": "features\\Detalles_servicios.feature"
   },
   {
     "description": "",
@@ -148,7 +223,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1572505899
+              "duration": 1253691600
             }
           },
           {
@@ -161,7 +236,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 509001699
+              "duration": 523568099
             }
           },
           {
@@ -174,7 +249,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 67583099
+              "duration": 64836900
             }
           },
           {
@@ -187,7 +262,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 28297800
+              "duration": 25866200
             }
           },
           {
@@ -200,7 +275,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 315685900
+              "duration": 257383600
             }
           },
           {
@@ -208,7 +283,15 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 39383300
+              "duration": 110800
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 67388500
             }
           }
         ],
@@ -232,7 +315,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1421206599
+              "duration": 1300236199
             }
           },
           {
@@ -245,7 +328,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 381999
+              "duration": 303700
             }
           },
           {
@@ -258,7 +341,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 146988199
+              "duration": 175288599
             }
           },
           {
@@ -271,7 +354,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 96688499
+              "duration": 94584599
             }
           },
           {
@@ -284,7 +367,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 583915400
+              "duration": 447274300
             }
           },
           {
@@ -297,7 +380,7 @@
             },
             "result": {
               "status": "failed",
-              "duration": 5013888799,
+              "duration": 5014968000,
               "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (C:\\Univerdiad\\GitUniversidad\\AntoniToapanta_14569_G2_IR\\03_Pruebas_Aceptacion\\node_modules\\@cucumber\\cucumber\\lib\\time.js:54:20)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)"
             }
           },
@@ -305,8 +388,16 @@
             "keyword": "After",
             "hidden": true,
             "result": {
+              "status": "passed",
+              "duration": 124700
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
               "status": "failed",
-              "duration": 5010402400,
+              "duration": 5001901800,
               "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (C:\\Univerdiad\\GitUniversidad\\AntoniToapanta_14569_G2_IR\\03_Pruebas_Aceptacion\\node_modules\\@cucumber\\cucumber\\lib\\time.js:54:20)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)"
             }
           }
@@ -331,7 +422,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1402452000
+              "duration": 1367117600
             }
           },
           {
@@ -344,7 +435,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 158989799
+              "duration": 121935800
             }
           },
           {
@@ -357,7 +448,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 152514299
+              "duration": 100740099
             }
           },
           {
@@ -370,7 +461,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 90318100
+              "duration": 63505900
             }
           },
           {
@@ -383,7 +474,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 397106599
+              "duration": 335699800
             }
           },
           {
@@ -396,7 +487,7 @@
             },
             "result": {
               "status": "failed",
-              "duration": 5002286899,
+              "duration": 5011269299,
               "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (C:\\Univerdiad\\GitUniversidad\\AntoniToapanta_14569_G2_IR\\03_Pruebas_Aceptacion\\node_modules\\@cucumber\\cucumber\\lib\\time.js:54:20)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)"
             }
           },
@@ -404,8 +495,16 @@
             "keyword": "After",
             "hidden": true,
             "result": {
+              "status": "passed",
+              "duration": 125899
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
               "status": "failed",
-              "duration": 5005832599,
+              "duration": 5007815899,
               "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (C:\\Univerdiad\\GitUniversidad\\AntoniToapanta_14569_G2_IR\\03_Pruebas_Aceptacion\\node_modules\\@cucumber\\cucumber\\lib\\time.js:54:20)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)"
             }
           }
@@ -419,6 +518,241 @@
     "keyword": "Feature",
     "name": "Formulario de prueba",
     "tags": [],
-    "uri": "features\\formulario.feature"
+    "uri": "features\\Formulario.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "pagina-main;al-seleccionar-el-boton-ver-se-dirigira-a-ala-pagina-de-about-us",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Al seleccionar el boton ver se dirigira a ala pagina de About Us",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "Estoy en la pagina principal",
+            "match": {
+              "location": "features\\step_definitions\\steps_page_main.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1155014100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "selecciones el boton de ver mas me dirige a la pagina del About Us",
+            "match": {
+              "location": "features\\step_definitions\\steps_page_main.js:18"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 5008004399,
+              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (C:\\Univerdiad\\GitUniversidad\\AntoniToapanta_14569_G2_IR\\03_Pruebas_Aceptacion\\node_modules\\@cucumber\\cucumber\\lib\\time.js:54:20)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 5007658699,
+              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (C:\\Univerdiad\\GitUniversidad\\AntoniToapanta_14569_G2_IR\\03_Pruebas_Aceptacion\\node_modules\\@cucumber\\cucumber\\lib\\time.js:54:20)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 333699,
+              "error_message": "NoSuchSessionError: This driver instance does not have a valid session ID (did you call WebDriver.quit()?) and may no longer be used.\n    at C:\\Univerdiad\\GitUniversidad\\AntoniToapanta_14569_G2_IR\\03_Pruebas_Aceptacion\\node_modules\\selenium-webdriver\\lib\\webdriver.js:773:9\n    at Object.thenFinally [as finally] (C:\\Univerdiad\\GitUniversidad\\AntoniToapanta_14569_G2_IR\\03_Pruebas_Aceptacion\\node_modules\\selenium-webdriver\\lib\\promise.js:101:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async World.<anonymous> (C:\\Univerdiad\\GitUniversidad\\AntoniToapanta_14569_G2_IR\\03_Pruebas_Aceptacion\\features\\step_definitions\\steps_formulario.js:101:9)"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "pagina-main;al-seleccionar-el-boton-ver-se-dirigira-a-ala-pagina-servicios",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Al seleccionar el boton ver se dirigira a ala pagina Servicios",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "Estoy en la pagina principal",
+            "match": {
+              "location": "features\\step_definitions\\steps_page_main.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1436940900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "selecciones el boton de ver mas me dirige a la pagina del Servicios",
+            "match": {
+              "location": "features\\step_definitions\\steps_page_main.js:14"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 5002064900,
+              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (C:\\Univerdiad\\GitUniversidad\\AntoniToapanta_14569_G2_IR\\03_Pruebas_Aceptacion\\node_modules\\@cucumber\\cucumber\\lib\\time.js:54:20)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 5008161700,
+              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (C:\\Univerdiad\\GitUniversidad\\AntoniToapanta_14569_G2_IR\\03_Pruebas_Aceptacion\\node_modules\\@cucumber\\cucumber\\lib\\time.js:54:20)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 289300,
+              "error_message": "NoSuchSessionError: This driver instance does not have a valid session ID (did you call WebDriver.quit()?) and may no longer be used.\n    at C:\\Univerdiad\\GitUniversidad\\AntoniToapanta_14569_G2_IR\\03_Pruebas_Aceptacion\\node_modules\\selenium-webdriver\\lib\\webdriver.js:773:9\n    at Object.thenFinally [as finally] (C:\\Univerdiad\\GitUniversidad\\AntoniToapanta_14569_G2_IR\\03_Pruebas_Aceptacion\\node_modules\\selenium-webdriver\\lib\\promise.js:103:11)\n    at async World.<anonymous> (C:\\Univerdiad\\GitUniversidad\\AntoniToapanta_14569_G2_IR\\03_Pruebas_Aceptacion\\features\\step_definitions\\steps_formulario.js:101:9)"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "pagina-main;al-seleccionar-el-boton-ver-se-dirigira-a-ala-pagina-productos",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Al seleccionar el boton ver se dirigira a ala pagina Productos",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "Estoy en la pagina principal",
+            "match": {
+              "location": "features\\step_definitions\\steps_page_main.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1405810299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "selecciones el boton de ver mas me dirige a la pagina del Productos",
+            "match": {
+              "location": "features\\step_definitions\\steps_page_main.js:22"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 5007463700,
+              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (C:\\Univerdiad\\GitUniversidad\\AntoniToapanta_14569_G2_IR\\03_Pruebas_Aceptacion\\node_modules\\@cucumber\\cucumber\\lib\\time.js:54:20)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 5002021100,
+              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (C:\\Univerdiad\\GitUniversidad\\AntoniToapanta_14569_G2_IR\\03_Pruebas_Aceptacion\\node_modules\\@cucumber\\cucumber\\lib\\time.js:54:20)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 240899,
+              "error_message": "NoSuchSessionError: This driver instance does not have a valid session ID (did you call WebDriver.quit()?) and may no longer be used.\n    at C:\\Univerdiad\\GitUniversidad\\AntoniToapanta_14569_G2_IR\\03_Pruebas_Aceptacion\\node_modules\\selenium-webdriver\\lib\\webdriver.js:773:9\n    at Object.thenFinally [as finally] (C:\\Univerdiad\\GitUniversidad\\AntoniToapanta_14569_G2_IR\\03_Pruebas_Aceptacion\\node_modules\\selenium-webdriver\\lib\\promise.js:103:11)\n    at async World.<anonymous> (C:\\Univerdiad\\GitUniversidad\\AntoniToapanta_14569_G2_IR\\03_Pruebas_Aceptacion\\features\\step_definitions\\steps_formulario.js:101:9)"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "pagina-main;al-seleccionar-el-boton-ver-se-dirigira-a-ala-pagina-proyectos",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Al seleccionar el boton ver se dirigira a ala pagina Proyectos",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 16,
+            "name": "Estoy en la pagina principal",
+            "match": {
+              "location": "features\\step_definitions\\steps_page_main.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1335250099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "selecciones el boton de ver mas me dirige a la pagina del Proyectos",
+            "match": {
+              "location": "features\\step_definitions\\steps_page_main.js:26"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 5015565000,
+              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (C:\\Univerdiad\\GitUniversidad\\AntoniToapanta_14569_G2_IR\\03_Pruebas_Aceptacion\\node_modules\\@cucumber\\cucumber\\lib\\time.js:54:20)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 5000534199,
+              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (C:\\Univerdiad\\GitUniversidad\\AntoniToapanta_14569_G2_IR\\03_Pruebas_Aceptacion\\node_modules\\@cucumber\\cucumber\\lib\\time.js:54:20)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 475999,
+              "error_message": "NoSuchSessionError: This driver instance does not have a valid session ID (did you call WebDriver.quit()?) and may no longer be used.\n    at C:\\Univerdiad\\GitUniversidad\\AntoniToapanta_14569_G2_IR\\03_Pruebas_Aceptacion\\node_modules\\selenium-webdriver\\lib\\webdriver.js:773:9\n    at Object.thenFinally [as finally] (C:\\Univerdiad\\GitUniversidad\\AntoniToapanta_14569_G2_IR\\03_Pruebas_Aceptacion\\node_modules\\selenium-webdriver\\lib\\promise.js:103:11)\n    at async World.<anonymous> (C:\\Univerdiad\\GitUniversidad\\AntoniToapanta_14569_G2_IR\\03_Pruebas_Aceptacion\\features\\step_definitions\\steps_formulario.js:101:9)"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "pagina-main",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Pagina main",
+    "tags": [],
+    "uri": "features\\Page_Main.feature"
   }
 ]
