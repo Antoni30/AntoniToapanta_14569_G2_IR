@@ -4,6 +4,135 @@
     "elements": [
       {
         "description": "",
+        "id": "pagina-detalles-producto;se-pude-visualizar-los-la-pagina-de-detalles-productos",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Se Pude visualizar los la pagina de detalles Productos",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "Estoy en la pagina de  detalles Productos",
+            "match": {
+              "location": "features\\step_definitions\\steps_productos.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1344079499
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 273599
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "pagina-detalles-producto",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Pagina detalles producto",
+    "tags": [],
+    "uri": "features\\Productos.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "pagina-detalles-proyecto;se-pude-visualizar-los-la-pagina-de-detalles-proyecto",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Se Pude visualizar los la pagina de detalles Proyecto",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "Estoy en la pagina de  detalles Proyecto",
+            "match": {
+              "location": "features\\step_definitions\\steps_proyecto.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1580892600
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 232999
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "pagina-detalles-proyecto",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Pagina detalles Proyecto",
+    "tags": [],
+    "uri": "features\\Proyecto.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "pagina-deatalles-servicios;se-pude-visualizar-los-la-pagina-de-detalles-servicios",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Se Pude visualizar los la pagina de detalles servicios",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "Estoy en la pagina detalles servicios",
+            "match": {
+              "location": "features\\step_definitions\\steps_servicios.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2011856199
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 182399
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "pagina-deatalles-servicios",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Pagina deatalles servicios",
+    "tags": [],
+    "uri": "features\\Servicios.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
         "id": "formulario-de-prueba;enviar-formulario-exitosamente",
         "keyword": "Scenario",
         "line": 2,
@@ -15,11 +144,11 @@
             "line": 3,
             "name": "que estoy en la página del formulario",
             "match": {
-              "location": "features\\step_definitions\\steps.js:13"
+              "location": "features\\step_definitions\\steps_formulario.js:13"
             },
             "result": {
               "status": "passed",
-              "duration": 1459395300
+              "duration": 1572505899
             }
           },
           {
@@ -28,11 +157,11 @@
             "line": 4,
             "name": "lleno el formulario con datos válidos",
             "match": {
-              "location": "features\\step_definitions\\steps.js:19"
+              "location": "features\\step_definitions\\steps_formulario.js:19"
             },
             "result": {
               "status": "passed",
-              "duration": 477716300
+              "duration": 509001699
             }
           },
           {
@@ -41,11 +170,11 @@
             "line": 5,
             "name": "envío el formulario",
             "match": {
-              "location": "features\\step_definitions\\steps.js:26"
+              "location": "features\\step_definitions\\steps_formulario.js:26"
             },
             "result": {
               "status": "passed",
-              "duration": 64974600
+              "duration": 67583099
             }
           },
           {
@@ -54,11 +183,11 @@
             "line": 6,
             "name": "debería ver un mensaje de éxito",
             "match": {
-              "location": "features\\step_definitions\\steps.js:38"
+              "location": "features\\step_definitions\\steps_formulario.js:38"
             },
             "result": {
               "status": "passed",
-              "duration": 31293999
+              "duration": 28297800
             }
           },
           {
@@ -67,11 +196,11 @@
             "line": 7,
             "name": "genero un PDF con la captura de pantalla \"Envio Formulario Correcto\"",
             "match": {
-              "location": "features\\step_definitions\\steps.js:52"
+              "location": "features\\step_definitions\\steps_formulario.js:52"
             },
             "result": {
               "status": "passed",
-              "duration": 214525799
+              "duration": 315685900
             }
           },
           {
@@ -79,7 +208,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 95564300
+              "duration": 39383300
             }
           }
         ],
@@ -99,11 +228,11 @@
             "line": 10,
             "name": "que estoy en la página del formulario",
             "match": {
-              "location": "features\\step_definitions\\steps.js:13"
+              "location": "features\\step_definitions\\steps_formulario.js:13"
             },
             "result": {
               "status": "passed",
-              "duration": 1163855000
+              "duration": 1421206599
             }
           },
           {
@@ -112,11 +241,11 @@
             "line": 11,
             "name": "dejo el campo \"firstname\" vacío",
             "match": {
-              "location": "features\\step_definitions\\steps.js:30"
+              "location": "features\\step_definitions\\steps_formulario.js:30"
             },
             "result": {
               "status": "passed",
-              "duration": 267099
+              "duration": 381999
             }
           },
           {
@@ -125,11 +254,11 @@
             "line": 12,
             "name": "lleno el campo \"email\" con \"prueba@example.com\"",
             "match": {
-              "location": "features\\step_definitions\\steps.js:34"
+              "location": "features\\step_definitions\\steps_formulario.js:34"
             },
             "result": {
               "status": "passed",
-              "duration": 144920500
+              "duration": 146988199
             }
           },
           {
@@ -138,11 +267,11 @@
             "line": 13,
             "name": "envío el formulario",
             "match": {
-              "location": "features\\step_definitions\\steps.js:26"
+              "location": "features\\step_definitions\\steps_formulario.js:26"
             },
             "result": {
               "status": "passed",
-              "duration": 60882999
+              "duration": 96688499
             }
           },
           {
@@ -151,11 +280,11 @@
             "line": 14,
             "name": "genero un PDF con la captura de pantalla \"Formulario incompleto\"",
             "match": {
-              "location": "features\\step_definitions\\steps.js:52"
+              "location": "features\\step_definitions\\steps_formulario.js:52"
             },
             "result": {
               "status": "passed",
-              "duration": 136101499
+              "duration": 583915400
             }
           },
           {
@@ -164,19 +293,21 @@
             "line": 15,
             "name": "debería ver un mensaje de error indicando \"Formulario incompleto\"",
             "match": {
-              "location": "features\\step_definitions\\steps.js:45"
+              "location": "features\\step_definitions\\steps_formulario.js:45"
             },
             "result": {
-              "status": "passed",
-              "duration": 26051900
+              "status": "failed",
+              "duration": 5013888799,
+              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (C:\\Univerdiad\\GitUniversidad\\AntoniToapanta_14569_G2_IR\\03_Pruebas_Aceptacion\\node_modules\\@cucumber\\cucumber\\lib\\time.js:54:20)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)"
             }
           },
           {
             "keyword": "After",
             "hidden": true,
             "result": {
-              "status": "passed",
-              "duration": 44276600
+              "status": "failed",
+              "duration": 5010402400,
+              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (C:\\Univerdiad\\GitUniversidad\\AntoniToapanta_14569_G2_IR\\03_Pruebas_Aceptacion\\node_modules\\@cucumber\\cucumber\\lib\\time.js:54:20)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)"
             }
           }
         ],
@@ -196,11 +327,11 @@
             "line": 18,
             "name": "que estoy en la página del formulario",
             "match": {
-              "location": "features\\step_definitions\\steps.js:13"
+              "location": "features\\step_definitions\\steps_formulario.js:13"
             },
             "result": {
               "status": "passed",
-              "duration": 1259175999
+              "duration": 1402452000
             }
           },
           {
@@ -209,11 +340,11 @@
             "line": 19,
             "name": "lleno el campo \"firstname\" con \"Nombre de Prueba\"",
             "match": {
-              "location": "features\\step_definitions\\steps.js:34"
+              "location": "features\\step_definitions\\steps_formulario.js:34"
             },
             "result": {
               "status": "passed",
-              "duration": 135786199
+              "duration": 158989799
             }
           },
           {
@@ -222,11 +353,11 @@
             "line": 20,
             "name": "lleno el campo \"email\" con \"correo_invalido\"",
             "match": {
-              "location": "features\\step_definitions\\steps.js:34"
+              "location": "features\\step_definitions\\steps_formulario.js:34"
             },
             "result": {
               "status": "passed",
-              "duration": 147171800
+              "duration": 152514299
             }
           },
           {
@@ -235,11 +366,11 @@
             "line": 21,
             "name": "envío el formulario",
             "match": {
-              "location": "features\\step_definitions\\steps.js:26"
+              "location": "features\\step_definitions\\steps_formulario.js:26"
             },
             "result": {
               "status": "passed",
-              "duration": 59624399
+              "duration": 90318100
             }
           },
           {
@@ -248,11 +379,11 @@
             "line": 22,
             "name": "genero un PDF con la captura de pantalla \"El formato del correo electrónico no es válido\"",
             "match": {
-              "location": "features\\step_definitions\\steps.js:52"
+              "location": "features\\step_definitions\\steps_formulario.js:52"
             },
             "result": {
               "status": "passed",
-              "duration": 126967599
+              "duration": 397106599
             }
           },
           {
@@ -261,20 +392,21 @@
             "line": 23,
             "name": "debería ver un mensaje de error indicando \"El formato del correo electrónico no es válido\"",
             "match": {
-              "location": "features\\step_definitions\\steps.js:45"
+              "location": "features\\step_definitions\\steps_formulario.js:45"
             },
             "result": {
               "status": "failed",
-              "duration": 30662000,
-              "error_message": "Error: El mensaje de error fue: Formulario incompleto, pero se esperaba: El formato del correo electrónico no es válido\n    at World.<anonymous> (C:\\Univerdiad\\GitUniversidad\\AntoniToapanta_14569_G2_IR\\03_Pruebas_Aceptacion\\features\\step_definitions\\steps.js:48:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+              "duration": 5002286899,
+              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (C:\\Univerdiad\\GitUniversidad\\AntoniToapanta_14569_G2_IR\\03_Pruebas_Aceptacion\\node_modules\\@cucumber\\cucumber\\lib\\time.js:54:20)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)"
             }
           },
           {
             "keyword": "After",
             "hidden": true,
             "result": {
-              "status": "passed",
-              "duration": 47641599
+              "status": "failed",
+              "duration": 5005832599,
+              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (C:\\Univerdiad\\GitUniversidad\\AntoniToapanta_14569_G2_IR\\03_Pruebas_Aceptacion\\node_modules\\@cucumber\\cucumber\\lib\\time.js:54:20)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)"
             }
           }
         ],

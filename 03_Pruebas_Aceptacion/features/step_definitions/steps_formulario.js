@@ -13,7 +13,7 @@ let pageIndex = 0;
 Given('que estoy en la página del formulario', async function () {
     driver = await new Builder().forBrowser(Browser.CHROME).build();
     await driver.manage().setTimeouts({ implicit: 10000, pageLoad: 20000, script: 20000 });
-    await driver.get('http://localhost:5173');
+    await driver.get('http://localhost:5173/contact_us');
 });
 
 When('lleno el formulario con datos válidos', async function () {
@@ -36,8 +36,8 @@ When('lleno el campo {string} con {string}', async function (campo, valor) {
 });
 
 Then('debería ver un mensaje de éxito', async function () {
-    let mensaje = await driver.findElement(By.id('mensaje_exito')).getText();
-    if (mensaje !== 'Datos enviados correctamente') {
+    let mensaje = await driver.findElement(By.id('mensaje')).getText();
+    if (mensaje !== 'Mensaje enviado correctamente') {
         throw new Error('El mensaje de éxito no es el esperado');
     }
 });
