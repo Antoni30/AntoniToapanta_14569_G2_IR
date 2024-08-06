@@ -10,7 +10,7 @@ export function HomePage() {
   return (
     <main>
       <div className='presentation'>
-        <Slider sliders={sliderPresentation} />
+        <Slider id='presentation' sliders={sliderPresentation} />
       </div>
       <section className='section'>
         <header className='section__header'>
@@ -19,7 +19,7 @@ export function HomePage() {
         <div className='products'>
           {
             slidersProducts.map((slider, index) => (
-              <Slider key={index} sliders={slider} />
+              <Slider id={`products_${index}`} key={index} sliders={slider} />
             ))
           }
         </div>
@@ -28,7 +28,7 @@ export function HomePage() {
         <header className='section__header'>
           <h3>Servicios</h3>
         </header>
-        <Slider sliders={sliderServices} />
+        <Slider id='services' sliders={sliderServices} />
       </section>
       <section className='section'>
         <header className='section__header'>
@@ -37,7 +37,7 @@ export function HomePage() {
         <div className='projects'>
           {
             slidersProjects.map((slider, index) => (
-              <Slider key={index} sliders={slider} />
+              <Slider id={`projects_${index}`} key={index} sliders={slider} />
             ))
           }
         </div>
