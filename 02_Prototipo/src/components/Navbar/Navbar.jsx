@@ -4,7 +4,7 @@ import './Navbar.css'
 export function Navbar() {
     return (
         <header className='navbar'>
-            <h1 className='logo'><a className='link' href='/'>NEOStudio</a></h1>
+            <LinkButton id="navbar_logo_link" href="/"><h2 className='logo'>NEOStudio</h2></LinkButton>
             <ul className='menu'>
                 <li><LinkButton id='navbar_products_link' href='/products'>Productos</LinkButton></li>
                 <li><LinkButton id='navbar_services_link' href='/services'>Servicios</LinkButton></li>

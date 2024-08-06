@@ -40,8 +40,8 @@ export function ContactForm() {
         <input type="tel" minLength={10} maxLength={10} id="telephone" name="telephone" placeholder='0912345678' pattern='[0-9]{10,10}' required />
       </div>
       <div className='form__submit'>
-        <button className="button"  id='1' type='submit'>Enviar</button>
-        <p id='mensaje' className={`form__message form__message--${messageClassName}`}>
+        <button className="button"  id='contact_form_submit_button' type='submit'>Enviar</button>
+        <p id='contact_form_message' className={`form__message form__message--${messageClassName}`}>
           {
             formStates[messageClassName]
           }

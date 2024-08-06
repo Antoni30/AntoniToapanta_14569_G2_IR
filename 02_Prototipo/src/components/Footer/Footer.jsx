@@ -7,7 +7,7 @@ import './Footer.css'
 export function Footer() {
     return (
         <footer className="footer">
-            <LinkButton id="logo_link" href="/"><h2 className='logo'>NEOStudio</h2></LinkButton>
+            <LinkButton id="footer_logo_link" href="/"><h2 className='logo'>NEOStudio</h2></LinkButton>
             <ul className='menu'>
                 <li><LinkButton id="footer_facebook_link" href='https://www.facebook.com/' target="_blank"><FontAwesomeIcon className="icon" icon={faFacebookF} /></LinkButton></li>
                 <li><LinkButton id="footer_tiktok_link" href='https://www.tiktok.com/en/' target="_blank"><FontAwesomeIcon className="icon" icon={faTiktok} /></LinkButton></li>
