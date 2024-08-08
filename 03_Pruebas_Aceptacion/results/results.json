@@ -1,0 +1,724 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "pagina-contactanos;se-pude-visualizar-los-la-pagina-de-contactanos",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Se Pude visualizar los la pagina de Contactanos",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "Estoy en la pagina de  Contactanos",
+            "match": {
+              "location": "features\\step_definitions\\steps_about_us.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4772292000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "pagina-contactanos",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Pagina Contactanos",
+    "tags": [],
+    "uri": "features\\About_us.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "pagina-detalles-producto;se-pude-visualizar-los-la-pagina-de-detalles-productos",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Se Pude visualizar los la pagina de detalles Productos",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "Estoy en la pagina de  detalles Productos",
+            "match": {
+              "location": "features\\step_definitions\\steps_productos.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1516712500
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "pagina-detalles-producto",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Pagina detalles producto",
+    "tags": [],
+    "uri": "features\\Detalle_productos.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "pagina-detalles-proyecto;se-pude-visualizar-los-la-pagina-de-detalles-proyecto",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Se Pude visualizar los la pagina de detalles Proyecto",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "Estoy en la pagina de  detalles Proyecto",
+            "match": {
+              "location": "features\\step_definitions\\steps_proyecto.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1273997099
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "pagina-detalles-proyecto",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Pagina detalles Proyecto",
+    "tags": [],
+    "uri": "features\\Detalles_proyectos.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "pagina-deatalles-servicios;se-pude-visualizar-los-la-pagina-de-detalles-servicios",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Se Pude visualizar los la pagina de detalles servicios",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "Estoy en la pagina detalles servicios",
+            "match": {
+              "location": "features\\step_definitions\\steps_servicios.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1215333699
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "pagina-deatalles-servicios",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Pagina deatalles servicios",
+    "tags": [],
+    "uri": "features\\Detalles_servicios.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "formulario-de-prueba;enviar-formulario-exitosamente",
+        "keyword": "Scenario",
+        "line": 2,
+        "name": "Enviar formulario exitosamente",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "que estoy en la página del formulario",
+            "match": {
+              "location": "features\\step_definitions\\steps_formulario.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1187931599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 4,
+            "name": "lleno el formulario con datos válidos",
+            "match": {
+              "location": "features\\step_definitions\\steps_formulario.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 390308200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "envío el formulario",
+            "match": {
+              "location": "features\\step_definitions\\steps_formulario.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 47681300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "debería ver un mensaje de éxito",
+            "match": {
+              "location": "features\\step_definitions\\steps_formulario.js:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 20547699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "genero un PDF con la captura de pantalla \"Envio Formulario Correcto\"",
+            "match": {
+              "location": "features\\step_definitions\\steps_formulario.js:52"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 341571599
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "formulario-de-prueba;enviar-formulario-con-campos-obligatorios-vacíos",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Enviar formulario con campos obligatorios vacíos",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "que estoy en la página del formulario",
+            "match": {
+              "location": "features\\step_definitions\\steps_formulario.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1260501800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "dejo el campo \"firstname\" vacío",
+            "match": {
+              "location": "features\\step_definitions\\steps_formulario.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 382600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "lleno el campo \"email\" con \"prueba@example.com\"",
+            "match": {
+              "location": "features\\step_definitions\\steps_formulario.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 121520800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "envío el formulario",
+            "match": {
+              "location": "features\\step_definitions\\steps_formulario.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 49121999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "genero un PDF con la captura de pantalla \"Formulario incompleto\"",
+            "match": {
+              "location": "features\\step_definitions\\steps_formulario.js:52"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 173743199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "debería ver un mensaje de error indicando \"Formulario incompleto\"",
+            "match": {
+              "location": "features\\step_definitions\\steps_formulario.js:45"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 835299,
+              "error_message": "NoSuchSessionError: This driver instance does not have a valid session ID (did you call WebDriver.quit()?) and may no longer be used.\n    at C:\\Univerdiad\\GitUniversidad\\AntoniToapanta_14569_G2_IR\\03_Pruebas_Aceptacion\\node_modules\\selenium-webdriver\\lib\\webdriver.js:773:9\n    at Object.thenFinally [as finally] (C:\\Univerdiad\\GitUniversidad\\AntoniToapanta_14569_G2_IR\\03_Pruebas_Aceptacion\\node_modules\\selenium-webdriver\\lib\\promise.js:101:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async World.<anonymous> (C:\\Univerdiad\\GitUniversidad\\AntoniToapanta_14569_G2_IR\\03_Pruebas_Aceptacion\\features\\step_definitions\\steps_formulario.js:97:5)"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "formulario-de-prueba;enviar-formulario-con-un-formato-de-correo-electrónico-inválido",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "Enviar formulario con un formato de correo electrónico inválido",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 18,
+            "name": "que estoy en la página del formulario",
+            "match": {
+              "location": "features\\step_definitions\\steps_formulario.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1206690699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "lleno el campo \"firstname\" con \"Nombre de Prueba\"",
+            "match": {
+              "location": "features\\step_definitions\\steps_formulario.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 119091899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "lleno el campo \"email\" con \"correo_invalido\"",
+            "match": {
+              "location": "features\\step_definitions\\steps_formulario.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 95967199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "envío el formulario",
+            "match": {
+              "location": "features\\step_definitions\\steps_formulario.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 60489799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "genero un PDF con la captura de pantalla \"El formato del correo electrónico no es válido\"",
+            "match": {
+              "location": "features\\step_definitions\\steps_formulario.js:52"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 305676999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "debería ver un mensaje de error indicando \"El formato del correo electrónico no es válido\"",
+            "match": {
+              "location": "features\\step_definitions\\steps_formulario.js:45"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 422899,
+              "error_message": "NoSuchSessionError: This driver instance does not have a valid session ID (did you call WebDriver.quit()?) and may no longer be used.\n    at C:\\Univerdiad\\GitUniversidad\\AntoniToapanta_14569_G2_IR\\03_Pruebas_Aceptacion\\node_modules\\selenium-webdriver\\lib\\webdriver.js:773:9\n    at Object.thenFinally [as finally] (C:\\Univerdiad\\GitUniversidad\\AntoniToapanta_14569_G2_IR\\03_Pruebas_Aceptacion\\node_modules\\selenium-webdriver\\lib\\promise.js:101:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async World.<anonymous> (C:\\Univerdiad\\GitUniversidad\\AntoniToapanta_14569_G2_IR\\03_Pruebas_Aceptacion\\features\\step_definitions\\steps_formulario.js:97:5)"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "formulario-de-prueba",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Formulario de prueba",
+    "tags": [],
+    "uri": "features\\Formulario.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "pagina-main;al-seleccionar-el-boton-ver-se-dirigira-a-ala-pagina-de-about-us",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Al seleccionar el boton ver se dirigira a ala pagina de About Us",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "Estoy en la pagina principal \"aboutSection\"",
+            "match": {
+              "location": "features\\step_definitions\\steps_page_main.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1203933900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "genero un PDF \"About Us\"",
+            "match": {
+              "location": "features\\step_definitions\\steps_page_main.js:44"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3325421600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "selecciones el boton de ver mas me dirige a la pagina del About Us",
+            "match": {
+              "location": "features\\step_definitions\\steps_page_main.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 64717999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "genero un PDF \"About Us\"",
+            "match": {
+              "location": "features\\step_definitions\\steps_page_main.js:44"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3157841300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "cerrar",
+            "match": {
+              "location": "features\\step_definitions\\steps_page_main.js:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 69911000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "pagina-main;al-seleccionar-el-boton-ver-se-dirigira-a-ala-pagina-servicios",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Al seleccionar el boton ver se dirigira a ala pagina Servicios",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "Estoy en la pagina principal \"servicioSection\"",
+            "match": {
+              "location": "features\\step_definitions\\steps_page_main.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1309064999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "genero un PDF \"Servicios\"",
+            "match": {
+              "location": "features\\step_definitions\\steps_page_main.js:44"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3343268399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "selecciones el boton de ver mas me dirige a la pagina del Servicios",
+            "match": {
+              "location": "features\\step_definitions\\steps_page_main.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 61186099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "genero un PDF \"Servicios\"",
+            "match": {
+              "location": "features\\step_definitions\\steps_page_main.js:44"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3300523300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "cerrar",
+            "match": {
+              "location": "features\\step_definitions\\steps_page_main.js:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 50334400
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "pagina-main;al-seleccionar-el-boton-ver-se-dirigira-a-ala-pagina-productos",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Al seleccionar el boton ver se dirigira a ala pagina Productos",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 19,
+            "name": "Estoy en la pagina principal \"productoSection\"",
+            "match": {
+              "location": "features\\step_definitions\\steps_page_main.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1329516000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "genero un PDF \"Productos\"",
+            "match": {
+              "location": "features\\step_definitions\\steps_page_main.js:44"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3307062599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 21,
+            "name": "selecciones el boton de ver mas me dirige a la pagina del Productos",
+            "match": {
+              "location": "features\\step_definitions\\steps_page_main.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 63656399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "genero un PDF \"Productos\"",
+            "match": {
+              "location": "features\\step_definitions\\steps_page_main.js:44"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3269677900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "cerrar",
+            "match": {
+              "location": "features\\step_definitions\\steps_page_main.js:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 78024399
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "pagina-main;al-seleccionar-el-boton-ver-se-dirigira-a-ala-pagina-proyectos",
+        "keyword": "Scenario",
+        "line": 25,
+        "name": "Al seleccionar el boton ver se dirigira a ala pagina Proyectos",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 26,
+            "name": "Estoy en la pagina principal \"proyectosSection\"",
+            "match": {
+              "location": "features\\step_definitions\\steps_page_main.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1399545500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 27,
+            "name": "genero un PDF \"Proyecto\"",
+            "match": {
+              "location": "features\\step_definitions\\steps_page_main.js:44"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3260972699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 28,
+            "name": "selecciones el boton de ver mas me dirige a la pagina del Proyectos",
+            "match": {
+              "location": "features\\step_definitions\\steps_page_main.js:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 61502199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 29,
+            "name": "genero un PDF \"Proyecto\"",
+            "match": {
+              "location": "features\\step_definitions\\steps_page_main.js:44"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3169331299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 30,
+            "name": "cerrar",
+            "match": {
+              "location": "features\\step_definitions\\steps_page_main.js:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 54063199
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "pagina-main",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Pagina main",
+    "tags": [],
+    "uri": "features\\Page_Main.feature"
+  }
+]

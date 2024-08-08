@@ -9,10 +9,10 @@ export function HomePage() {
 
   return (
     <main>
-      <div className='presentation'>
+      <div className='presentation' id="aboutSection">
         <Slider id='presentation' sliders={sliderPresentation} />
       </div>
-      <section className='section'>
+      <section className='section' id='productoSection'>
         <header className='section__header'>
           <h3>Productos</h3>
         </header>
@@ -24,13 +24,13 @@ export function HomePage() {
           }
         </div>
       </section>
-      <section className='section services'>
+      <section className='section services' id="servicioSection">
         <header className='section__header'>
           <h3>Servicios</h3>
         </header>
         <Slider id='services' sliders={sliderServices} />
       </section>
-      <section className='section'>
+      <section className='section' id='proyectosSection'>
         <header className='section__header'>
           <h3>Proyectos</h3>
         </header>

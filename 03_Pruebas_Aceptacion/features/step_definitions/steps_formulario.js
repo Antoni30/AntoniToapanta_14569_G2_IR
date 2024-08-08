@@ -24,7 +24,7 @@ When('lleno el formulario con datos válidos', async function () {
 });
 
 When('envío el formulario', async function () {
-    await driver.findElement(By.id('1')).click();
+    await driver.findElement(By.id('contact_form_submit_button')).click();
 });
 
 When('dejo el campo {string} vacío', async function (campo) {
@@ -36,14 +36,14 @@ When('lleno el campo {string} con {string}', async function (campo, valor) {
 });
 
 Then('debería ver un mensaje de éxito', async function () {
-    let mensaje = await driver.findElement(By.id('mensaje')).getText();
+    let mensaje = await driver.findElement(By.id('contact_form_message')).getText();
     if (mensaje !== 'Mensaje enviado correctamente') {
         throw new Error('El mensaje de éxito no es el esperado');
     }
 });
 
 Then('debería ver un mensaje de error indicando {string}', async function (mensajeEsperado) {
-    let mensaje = await driver.findElement(By.id('mensaje_exito')).getText();
+    let mensaje = await driver.findElement(By.id('contact_form_message')).getText();
     if (mensaje !== mensajeEsperado) {
         throw new Error(`El mensaje de error fue: ${mensaje}, pero se esperaba: ${mensajeEsperado}`);
     }
@@ -58,7 +58,7 @@ Then('genero un PDF con la captura de pantalla {string}', async function (escena
 
 
     // Tomar una captura de pantalla con Selenium
-    const screenshotPath = path.join(__dirname, `screenshot_${pageIndex}.png`);
+    const screenshotPath = path.join(__dirname, `screenshot_Formulario${pageIndex}.png`);
     const screenshot = await driver.takeScreenshot();
     fs.writeFileSync(screenshotPath, Buffer.from(screenshot, 'base64'));
 
@@ -94,19 +94,15 @@ Then('genero un PDF con la captura de pantalla {string}', async function (escena
         height: pngDims.height,
     });
     pageIndex++;
+    await driver.quit();
 });
 
-After(async function () {
-    if (driver) {
-        await driver.quit();
-    }
-});
 
 AfterAll(async function () {
     if (pdfDoc) {
         // Guardar el PDF en el sistema de archivos
         const pdfBytes = await pdfDoc.save();
-        fs.writeFileSync(path.join(__dirname, 'documento_final.pdf'), pdfBytes);
+        fs.writeFileSync(path.join(__dirname, 'documento_Prueba_Formulario.pdf'), pdfBytes);
 
         // Eliminar las capturas de pantalla temporales
         for (const screenshot of screenshots) {

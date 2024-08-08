@@ -25,19 +25,19 @@ export function ContactForm() {
     <form className="form" onSubmit={handleSubmit}>
       <div className="form__input">
         <label htmlFor="firstname">Nombre</label>
-        <input type="text" id="firstname" name="firstname" placeholder='john' required />
+        <input type="text" id="firstname" name="firstname" placeholder='john'/>
       </div>
       <div className="form__input">
         <label htmlFor="lastname">Apellido</label>
-        <input type="text" id="lastname" name="lastname" placeholder='doe' required />
+        <input type="text" id="lastname" name="lastname" placeholder='doe' />
       </div>
       <div className="form__input">
         <label htmlFor="email">Correo electrónico</label>
-        <input type="email" id="email" name="email" placeholder='johndoe@email.com' required />
+        <input type="email" id="email" name="email" placeholder='johndoe@email.com' />
       </div>
       <div className="form__input">
         <label htmlFor="telephone">Teléfono</label>
-        <input type="tel" minLength={10} maxLength={10} id="telephone" name="telephone" placeholder='0912345678' pattern='[0-9]{10,10}' required />
+        <input type="tel" minLength={10} maxLength={10} id="telephone" name="telephone" placeholder='0912345678' pattern='[0-9]{10,10}' />
       </div>
       <div className='form__submit'>
         <button className="button"  id='contact_form_submit_button' type='submit'>Enviar</button>

@@ -1,4 +1,4 @@
-const { Given, When, Then ,AfterAll,After } = require('@cucumber/cucumber');
+const { Given, When, Then ,AfterAll,And } = require('@cucumber/cucumber');
 const { Builder, By, Browser } = require('selenium-webdriver');
 const { PDFDocument, rgb } = require('pdf-lib');
 const fs = require('fs');
@@ -10,44 +10,44 @@ const screenshots = [];
 let pdfDoc;
 let pageIndex = 0;
 
-Given('Estoy en la pagina principal', async function () {
+Given('Estoy en la pagina principal {string}', async function (elemento) {
     driver = await new Builder().forBrowser(Browser.CHROME).build();
     await driver.manage().setTimeouts({ implicit: 10000, pageLoad: 20000, script: 20000 });
     await driver.get('http://localhost:5173');
+    const element = await driver.findElement(By.id(elemento));
+    await driver.executeScript("arguments[0].scrollIntoView(true);", element);
 });
 
 When('selecciones el boton de ver mas me dirige a la pagina del Servicios', async function () {
-    await driver.findElement(By.id('ver_Servicios')).click();
+    await driver.findElement(By.id('services_slider_view_more_0')).click();
 });
 
 When('selecciones el boton de ver mas me dirige a la pagina del About Us', async function () {
-    await driver.findElement(By.id('ver_About_us')).click();
+    await driver.findElement(By.id('presentation_slider_view_more_0')).click();
 });
 
 When('selecciones el boton de ver mas me dirige a la pagina del Productos', async function () {
-    await driver.findElement(By.id('ver_Productos')).click();
+    await driver.findElement(By.id('products_0_slider_view_more_0')).click();
 });
 
 When('selecciones el boton de ver mas me dirige a la pagina del Proyectos', async function () {
-    await driver.findElement(By.id('ver_Proyectos')).click();
+    await driver.findElement(By.id('projects_0_slider_view_more_0')).click();
 });
 
-After(async function () {
-    if (driver) {
+Then('cerrar', async function () {
+    if (driver && (await driver.getSession())) {
         await driver.quit();
+    } else {
+        console.log('El driver ya no tiene una sesión activa.');
     }
 });
-
-
 Then('genero un PDF {string}', async function (escenario) {
-
     if (!pdfDoc) {
       pdfDoc = await PDFDocument.create();
   }
-
-
   // Tomar una captura de pantalla con Selenium
-  const screenshotPath = path.join(__dirname, `screenshot_${pageIndex}.png`);
+  const screenshotPath = path.join(__dirname, `screenshot_Main${pageIndex}.png`);
+  await driver.sleep(3000);
   const screenshot = await driver.takeScreenshot();
   fs.writeFileSync(screenshotPath, Buffer.from(screenshot, 'base64'));
 
@@ -57,7 +57,7 @@ Then('genero un PDF {string}', async function (escenario) {
   const page = pdfDoc.addPage([600, 800]);
 
   // Agregar texto al PDF
-  page.drawText(`Captura de pantalla para el escenario ${pageIndex + 1}`, {
+  page.drawText(`Captura de pantalla para el escenario`, {
       x: 50,
       y: 720,
       size: 11,
@@ -83,15 +83,15 @@ Then('genero un PDF {string}', async function (escenario) {
       height: pngDims.height,
   });
   pageIndex++;
+ 
 });
 
 AfterAll(async function () {
+    
     if (pdfDoc) {
-        // Guardar el PDF en el sistema de archivos
         const pdfBytes = await pdfDoc.save();
         fs.writeFileSync(path.join(__dirname, 'documento_Pruebas_Main_Page.pdf'), pdfBytes);
 
-        // Eliminar las capturas de pantalla temporales
         for (const screenshot of screenshots) {
             fs.unlinkSync(screenshot);
         }
