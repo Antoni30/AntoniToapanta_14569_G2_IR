@@ -6,7 +6,7 @@ export function ContactForm() {
 
   const formStates = {
     'success': 'Mensaje enviado correctamente',
-    'fail': 'No se pudo enviar el mensaje'
+    'fail': 'Formulario incompleto'
   }
 
   const handleSubmit = (event) => {
@@ -37,7 +37,7 @@ export function ContactForm() {
       </div>
       <div className="form__input">
         <label htmlFor="telephone">Teléfono</label>
-        <input type="tel" minLength={10} maxLength={10} id="telephone" name="telephone" placeholder='0912345678' pattern='[0-9]{10,10}' />
+        <input type="tel" minLength={10} maxLength={10} id="telephone" name="telephone" placeholder='0912345678' />
       </div>
       <div className='form__submit'>
         <button className="button"  id='contact_form_submit_button' type='submit'>Enviar</button>
