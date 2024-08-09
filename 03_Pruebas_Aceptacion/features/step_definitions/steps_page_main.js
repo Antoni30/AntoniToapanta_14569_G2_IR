@@ -1,4 +1,4 @@
-const { Given, When, Then ,AfterAll,And } = require('@cucumber/cucumber');
+const { Given, When, Then ,AfterAll} = require('@cucumber/cucumber');
 const { Builder, By, Browser } = require('selenium-webdriver');
 const { PDFDocument, rgb } = require('pdf-lib');
 const fs = require('fs');
@@ -82,18 +82,17 @@ Then('genero un PDF {string}', async function (escenario) {
       width: pngDims.width,
       height: pngDims.height,
   });
+  fs.unlinkSync(screenshotPath);
   pageIndex++;
- 
 });
 
-AfterAll(async function () {
-    
+Then('guardar {string}', async function (nombreArchivo) {
     if (pdfDoc) {
         const pdfBytes = await pdfDoc.save();
-        fs.writeFileSync(path.join(__dirname, 'documento_Pruebas_Main_Page.pdf'), pdfBytes);
+        fs.writeFileSync(path.join(__dirname, `${nombreArchivo}.pdf`), pdfBytes);
 
-        for (const screenshot of screenshots) {
-            fs.unlinkSync(screenshot);
-        }
+        // Reiniciar variables para el próximo escenario
+        pdfDoc = null;
+        pageIndex = 0;
     }
 });

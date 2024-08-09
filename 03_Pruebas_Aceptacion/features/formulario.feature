@@ -11,8 +11,8 @@ Scenario: Enviar formulario con campos obligatorios vacíos
     When dejo el campo "firstname" vacío
     And lleno el campo "email" con "prueba@example.com"
     And envío el formulario
-    And genero un PDF con la captura de pantalla "Formulario incompleto"
     Then debería ver un mensaje de error indicando "Formulario incompleto"
+    And genero un PDF con la captura de pantalla "Formulario incompleto"
 
 Scenario: Enviar formulario con un formato de correo electrónico inválido
     Given que estoy en la página del formulario

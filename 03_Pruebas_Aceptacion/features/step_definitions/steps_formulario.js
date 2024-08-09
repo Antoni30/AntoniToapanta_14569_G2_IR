@@ -1,4 +1,4 @@
-const { Given, When, Then ,AfterAll,After } = require('@cucumber/cucumber');
+const { Given, When, Then ,AfterAll } = require('@cucumber/cucumber');
 const { Builder, By, Browser } = require('selenium-webdriver');
 const { PDFDocument, rgb } = require('pdf-lib');
 const fs = require('fs');
