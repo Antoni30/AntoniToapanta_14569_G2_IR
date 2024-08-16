@@ -18,9 +18,8 @@
               "location": "features\\step_definitions\\steps_about_us.js:12"
             },
             "result": {
-              "status": "failed",
-              "duration": 9795230900,
-              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (C:\\Univerdiad\\GitUniversidad\\AntoniToapanta_14569_G2_IR\\03_Pruebas_Aceptacion\\node_modules\\@cucumber\\cucumber\\lib\\time.js:54:20)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)"
+              "status": "passed",
+              "duration": 1329570899
             }
           },
           {
@@ -32,8 +31,8 @@
               "location": "features\\step_definitions\\steps_about_us.js:19"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 3262216699
             }
           },
           {
@@ -45,8 +44,8 @@
               "location": "features\\step_definitions\\steps_about_us.js:75"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 106580400
             }
           }
         ],
@@ -70,17 +69,21 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2288637999
+              "duration": 1415074399
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 10,
-            "name": "Carga Imagenes en tiempo estimado",
+            "name": "Carga Imagenes en tiempo estimado A",
+            "match": {
+              "location": "features\\step_definitions\\steps_about_us.js:83"
+            },
             "result": {
-              "status": "undefined",
-              "duration": 0
+              "status": "failed",
+              "duration": 730599,
+              "error_message": "ReferenceError: until is not defined\n    at World.<anonymous> (C:\\Univerdiad\\GitUniversidad\\AntoniToapanta_14569_G2_IR\\03_Pruebas_Aceptacion\\features\\step_definitions\\steps_about_us.js:87:7)"
             }
           },
           {
@@ -100,9 +103,9 @@
             "arguments": [],
             "keyword": "Then ",
             "line": 12,
-            "name": "cerrar session Productos",
+            "name": "cerrar session about us",
             "match": {
-              "location": "features\\step_definitions\\steps_productos.js:74"
+              "location": "features\\step_definitions\\steps_about_us.js:75"
             },
             "result": {
               "status": "skipped",
@@ -141,7 +144,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1514014699
+              "duration": 1280326699
             }
           },
           {
@@ -154,7 +157,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3388250499
+              "duration": 3345019200
             }
           },
           {
@@ -167,7 +170,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 84439299
+              "duration": 78869999
             }
           }
         ],
@@ -191,17 +194,21 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1430356299
+              "duration": 1341104700
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 10,
-            "name": "Carga Imagenes en tiempo estimado",
+            "name": "Carga Imagenes en tiempo estimado P",
+            "match": {
+              "location": "features\\step_definitions\\steps_productos.js:83"
+            },
             "result": {
-              "status": "undefined",
-              "duration": 0
+              "status": "failed",
+              "duration": 754100,
+              "error_message": "ReferenceError: until is not defined\n    at World.<anonymous> (C:\\Univerdiad\\GitUniversidad\\AntoniToapanta_14569_G2_IR\\03_Pruebas_Aceptacion\\features\\step_definitions\\steps_productos.js:87:7)"
             }
           },
           {
@@ -262,7 +269,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1312583800
+              "duration": 1442215100
             }
           },
           {
@@ -275,7 +282,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3397546399
+              "duration": 3332866499
             }
           },
           {
@@ -288,7 +295,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 46342099
+              "duration": 48953099
             }
           }
         ],
@@ -312,17 +319,21 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1492826399
+              "duration": 1342122400
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 10,
-            "name": "Carga Imagenes en tiempo estimado",
+            "name": "Carga Imagenes en tiempo estimado Pr",
+            "match": {
+              "location": "features\\step_definitions\\steps_proyecto.js:83"
+            },
             "result": {
-              "status": "undefined",
-              "duration": 0
+              "status": "failed",
+              "duration": 692399,
+              "error_message": "ReferenceError: until is not defined\n    at World.<anonymous> (C:\\Univerdiad\\GitUniversidad\\AntoniToapanta_14569_G2_IR\\03_Pruebas_Aceptacion\\features\\step_definitions\\steps_proyecto.js:87:7)"
             }
           },
           {
@@ -342,9 +353,9 @@
             "arguments": [],
             "keyword": "Then ",
             "line": 12,
-            "name": "cerrar session Productos",
+            "name": "cerrar session proyectos",
             "match": {
-              "location": "features\\step_definitions\\steps_productos.js:74"
+              "location": "features\\step_definitions\\steps_proyecto.js:75"
             },
             "result": {
               "status": "skipped",
@@ -383,7 +394,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1998176199
+              "duration": 1397174599
             }
           },
           {
@@ -396,7 +407,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3459151600
+              "duration": 3356098799
             }
           },
           {
@@ -409,7 +420,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 79789500
+              "duration": 51023400
             }
           }
         ],
@@ -433,17 +444,21 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1475464400
+              "duration": 1829080799
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 10,
-            "name": "Carga Imagenes en tiempo estimado",
+            "name": "Carga Imagenes en tiempo estimado S",
+            "match": {
+              "location": "features\\step_definitions\\steps_servicios.js:84"
+            },
             "result": {
-              "status": "undefined",
-              "duration": 0
+              "status": "failed",
+              "duration": 636899,
+              "error_message": "ReferenceError: until is not defined\n    at World.<anonymous> (C:\\Univerdiad\\GitUniversidad\\AntoniToapanta_14569_G2_IR\\03_Pruebas_Aceptacion\\features\\step_definitions\\steps_servicios.js:88:7)"
             }
           },
           {
@@ -463,9 +478,9 @@
             "arguments": [],
             "keyword": "Then ",
             "line": 12,
-            "name": "cerrar session Productos",
+            "name": "cerrar session servicios",
             "match": {
-              "location": "features\\step_definitions\\steps_productos.js:74"
+              "location": "features\\step_definitions\\steps_servicios.js:76"
             },
             "result": {
               "status": "skipped",
@@ -504,7 +519,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1561030299
+              "duration": 1510065900
             }
           },
           {
@@ -517,7 +532,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 711809999
+              "duration": 656294599
             }
           },
           {
@@ -530,7 +545,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 109611800
+              "duration": 117297099
             }
           },
           {
@@ -543,7 +558,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 37945299
+              "duration": 28087500
             }
           },
           {
@@ -556,7 +571,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 329844400
+              "duration": 305100699
             }
           }
         ],
@@ -580,7 +595,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1714159500
+              "duration": 1860024900
             }
           },
           {
@@ -593,7 +608,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 606099
+              "duration": 822199
             }
           },
           {
@@ -606,7 +621,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 208201099
+              "duration": 214855400
             }
           },
           {
@@ -619,7 +634,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 83217699
+              "duration": 88180399
             }
           },
           {
@@ -632,7 +647,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 36682600
+              "duration": 33637800
             }
           },
           {
@@ -645,7 +660,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 386487900
+              "duration": 422285199
             }
           }
         ],
@@ -669,7 +684,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1412337699
+              "duration": 1702918800
             }
           },
           {
@@ -682,7 +697,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 156821299
+              "duration": 167796800
             }
           },
           {
@@ -695,7 +710,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 140359600
+              "duration": 119772499
             }
           },
           {
@@ -708,7 +723,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 90737600
+              "duration": 81206000
             }
           },
           {
@@ -721,7 +736,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 431504300
+              "duration": 438070299
             }
           },
           {
@@ -734,7 +749,7 @@
             },
             "result": {
               "status": "failed",
-              "duration": 485300,
+              "duration": 754399,
               "error_message": "NoSuchSessionError: This driver instance does not have a valid session ID (did you call WebDriver.quit()?) and may no longer be used.\n    at C:\\Univerdiad\\GitUniversidad\\AntoniToapanta_14569_G2_IR\\03_Pruebas_Aceptacion\\node_modules\\selenium-webdriver\\lib\\webdriver.js:773:9\n    at Object.thenFinally [as finally] (C:\\Univerdiad\\GitUniversidad\\AntoniToapanta_14569_G2_IR\\03_Pruebas_Aceptacion\\node_modules\\selenium-webdriver\\lib\\promise.js:101:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async World.<anonymous> (C:\\Univerdiad\\GitUniversidad\\AntoniToapanta_14569_G2_IR\\03_Pruebas_Aceptacion\\features\\step_definitions\\steps_formulario.js:97:5)"
             }
           }
@@ -770,7 +785,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1568738199
+              "duration": 1446540200
             }
           },
           {
@@ -783,7 +798,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3426352099
+              "duration": 3618466099
             }
           },
           {
@@ -796,7 +811,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 77798499
+              "duration": 117682300
             }
           },
           {
@@ -809,7 +824,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3175999400
+              "duration": 3392911500
             }
           },
           {
@@ -822,7 +837,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 427720399
+              "duration": 505162100
             }
           },
           {
@@ -835,7 +850,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 79211199
+              "duration": 58989900
             }
           }
         ],
@@ -844,127 +859,42 @@
       },
       {
         "description": "",
-        "id": "pagina-main;al-seleccionar-el-boton-ver-se-dirigira-a-ala-pagina-servicios",
+        "id": "pagina-main;imagenes-estan-disponible-en-menos-de-5s-de-about-us",
         "keyword": "Scenario",
-        "line": 12,
-        "name": "Al seleccionar el boton ver se dirigira a ala pagina Servicios",
+        "line": 11,
+        "name": "Imagenes estan disponible en menos de 5s de about us",
         "steps": [
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 13,
-            "name": "Estoy en la pagina principal \"servicioSection\"",
+            "line": 12,
+            "name": "Estoy en la pagina principal \"aboutSection\"",
             "match": {
               "location": "features\\step_definitions\\steps_page_main.js:13"
             },
             "result": {
               "status": "passed",
-              "duration": 1331444799
+              "duration": 1609353999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Carga Imagenes en tiempo estimado M",
+            "match": {
+              "location": "features\\step_definitions\\steps_page_main.js:116"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 355999,
+              "error_message": "ReferenceError: until is not defined\n    at World.<anonymous> (C:\\Univerdiad\\GitUniversidad\\AntoniToapanta_14569_G2_IR\\03_Pruebas_Aceptacion\\features\\step_definitions\\steps_page_main.js:120:7)"
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 14,
-            "name": "genero un PDF \"Servicios\"",
-            "match": {
-              "location": "features\\step_definitions\\steps_page_main.js:60"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 3407422200
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 15,
-            "name": "selecciones el boton de ver mas me dirige a la pagina del Servicios",
-            "match": {
-              "location": "features\\step_definitions\\steps_page_main.js:21"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 70989199
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 16,
-            "name": "genero un PDF \"Servicios\"",
-            "match": {
-              "location": "features\\step_definitions\\steps_page_main.js:60"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 3396812799
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 17,
-            "name": "guardar \"documento_Prueba_Seccion_Servicios\"",
-            "match": {
-              "location": "features\\step_definitions\\steps_page_main.js:105"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 473292699
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 18,
-            "name": "cerrar",
-            "match": {
-              "location": "features\\step_definitions\\steps_page_main.js:53"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 83542000
-            }
-          }
-        ],
-        "tags": [],
-        "type": "scenario"
-      },
-      {
-        "description": "",
-        "id": "pagina-main;imagenes-estan-disponible-en-menos-de-5s-de-servicios",
-        "keyword": "Scenario",
-        "line": 20,
-        "name": "Imagenes estan disponible en menos de 5s de Servicios",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 21,
-            "name": "Estoy en la pagina principal \"servicioSection\"",
-            "match": {
-              "location": "features\\step_definitions\\steps_page_main.js:13"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1535657899
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 22,
-            "name": "Carga Imagenes en tiempo estimado",
-            "result": {
-              "status": "undefined",
-              "duration": 0
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 23,
             "name": "genero un PDF de como \"Imagenes carga en tiempo estimado\"",
             "match": {
               "location": "features\\step_definitions\\steps_productos.js:18"
@@ -977,7 +907,160 @@
           {
             "arguments": [],
             "keyword": "And ",
+            "line": 15,
+            "name": "cerrar",
+            "match": {
+              "location": "features\\step_definitions\\steps_page_main.js:53"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "pagina-main;al-seleccionar-el-boton-ver-se-dirigira-a-ala-pagina-servicios",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Al seleccionar el boton ver se dirigira a ala pagina Servicios",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 19,
+            "name": "Estoy en la pagina principal \"servicioSection\"",
+            "match": {
+              "location": "features\\step_definitions\\steps_page_main.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1770557700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "genero un PDF \"Servicios\"",
+            "match": {
+              "location": "features\\step_definitions\\steps_page_main.js:60"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3384064500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 21,
+            "name": "selecciones el boton de ver mas me dirige a la pagina del Servicios",
+            "match": {
+              "location": "features\\step_definitions\\steps_page_main.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 84981299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "genero un PDF \"Servicios\"",
+            "match": {
+              "location": "features\\step_definitions\\steps_page_main.js:60"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3368183399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 23,
+            "name": "guardar \"documento_Prueba_Seccion_Servicios\"",
+            "match": {
+              "location": "features\\step_definitions\\steps_page_main.js:105"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 495651899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
             "line": 24,
+            "name": "cerrar",
+            "match": {
+              "location": "features\\step_definitions\\steps_page_main.js:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 102309300
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "pagina-main;imagenes-estan-disponible-en-menos-de-5s-de-servicios",
+        "keyword": "Scenario",
+        "line": 26,
+        "name": "Imagenes estan disponible en menos de 5s de Servicios",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 27,
+            "name": "Estoy en la pagina principal \"servicioSection\"",
+            "match": {
+              "location": "features\\step_definitions\\steps_page_main.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1529394500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 28,
+            "name": "Carga Imagenes en tiempo estimado M",
+            "match": {
+              "location": "features\\step_definitions\\steps_page_main.js:116"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 314400,
+              "error_message": "ReferenceError: until is not defined\n    at World.<anonymous> (C:\\Univerdiad\\GitUniversidad\\AntoniToapanta_14569_G2_IR\\03_Pruebas_Aceptacion\\features\\step_definitions\\steps_page_main.js:120:7)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 29,
+            "name": "genero un PDF de como \"Imagenes carga en tiempo estimado\"",
+            "match": {
+              "location": "features\\step_definitions\\steps_productos.js:18"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 30,
             "name": "cerrar",
             "match": {
               "location": "features\\step_definitions\\steps_page_main.js:53"
@@ -995,85 +1078,85 @@
         "description": "",
         "id": "pagina-main;al-seleccionar-el-boton-ver-se-dirigira-a-ala-pagina-productos",
         "keyword": "Scenario",
-        "line": 26,
+        "line": 32,
         "name": "Al seleccionar el boton ver se dirigira a ala pagina Productos",
         "steps": [
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 27,
+            "line": 33,
             "name": "Estoy en la pagina principal \"productoSection\"",
             "match": {
               "location": "features\\step_definitions\\steps_page_main.js:13"
             },
             "result": {
               "status": "passed",
-              "duration": 1899083400
+              "duration": 1950113699
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 28,
+            "line": 34,
             "name": "genero un PDF \"Productos\"",
             "match": {
               "location": "features\\step_definitions\\steps_page_main.js:60"
             },
             "result": {
               "status": "passed",
-              "duration": 3363438699
+              "duration": 3386222300
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 29,
+            "line": 35,
             "name": "selecciones el boton de ver mas me dirige a la pagina del Productos",
             "match": {
               "location": "features\\step_definitions\\steps_page_main.js:37"
             },
             "result": {
               "status": "passed",
-              "duration": 71139699
+              "duration": 77728900
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 30,
+            "line": 36,
             "name": "genero un PDF \"Productos\"",
             "match": {
               "location": "features\\step_definitions\\steps_page_main.js:60"
             },
             "result": {
               "status": "passed",
-              "duration": 3348047599
+              "duration": 3371255799
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 31,
+            "line": 37,
             "name": "guardar \"documento_Prueba_Seccion_Productos\"",
             "match": {
               "location": "features\\step_definitions\\steps_page_main.js:105"
             },
             "result": {
               "status": "passed",
-              "duration": 415081399
+              "duration": 444724499
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 32,
+            "line": 38,
             "name": "cerrar",
             "match": {
               "location": "features\\step_definitions\\steps_page_main.js:53"
             },
             "result": {
               "status": "passed",
-              "duration": 68379199
+              "duration": 71685499
             }
           }
         ],
@@ -1084,36 +1167,40 @@
         "description": "",
         "id": "pagina-main;imagenes-estan-disponible-en-menos-de-5s-de-productos",
         "keyword": "Scenario",
-        "line": 34,
+        "line": 40,
         "name": "Imagenes estan disponible en menos de 5s de productos",
         "steps": [
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 35,
-            "name": "Estoy en la pagina de  detalles Productos",
+            "line": 41,
+            "name": "Estoy en la pagina principal \"productoSection\"",
             "match": {
-              "location": "features\\step_definitions\\steps_productos.js:13"
+              "location": "features\\step_definitions\\steps_page_main.js:13"
             },
             "result": {
               "status": "passed",
-              "duration": 1371520400
+              "duration": 1501943999
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 36,
-            "name": "Carga Imagenes en tiempo estimado",
+            "line": 42,
+            "name": "Carga Imagenes en tiempo estimado M",
+            "match": {
+              "location": "features\\step_definitions\\steps_page_main.js:116"
+            },
             "result": {
-              "status": "undefined",
-              "duration": 0
+              "status": "failed",
+              "duration": 546999,
+              "error_message": "ReferenceError: until is not defined\n    at World.<anonymous> (C:\\Univerdiad\\GitUniversidad\\AntoniToapanta_14569_G2_IR\\03_Pruebas_Aceptacion\\features\\step_definitions\\steps_page_main.js:120:7)"
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 37,
+            "line": 43,
             "name": "genero un PDF de como \"Imagenes carga en tiempo estimado\"",
             "match": {
               "location": "features\\step_definitions\\steps_productos.js:18"
@@ -1126,7 +1213,7 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 38,
+            "line": 44,
             "name": "cerrar",
             "match": {
               "location": "features\\step_definitions\\steps_page_main.js:53"
@@ -1144,85 +1231,85 @@
         "description": "",
         "id": "pagina-main;al-seleccionar-el-boton-ver-se-dirigira-a-ala-pagina-proyectos",
         "keyword": "Scenario",
-        "line": 40,
+        "line": 46,
         "name": "Al seleccionar el boton ver se dirigira a ala pagina Proyectos",
         "steps": [
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 41,
+            "line": 47,
             "name": "Estoy en la pagina principal \"proyectosSection\"",
             "match": {
               "location": "features\\step_definitions\\steps_page_main.js:13"
             },
             "result": {
               "status": "passed",
-              "duration": 1968927100
+              "duration": 2162768199
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 42,
+            "line": 48,
             "name": "genero un PDF \"Proyecto\"",
             "match": {
               "location": "features\\step_definitions\\steps_page_main.js:60"
             },
             "result": {
               "status": "passed",
-              "duration": 3326091199
+              "duration": 3445801999
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 43,
+            "line": 49,
             "name": "selecciones el boton de ver mas me dirige a la pagina del Proyectos",
             "match": {
               "location": "features\\step_definitions\\steps_page_main.js:49"
             },
             "result": {
               "status": "passed",
-              "duration": 85381999
+              "duration": 156127699
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 44,
+            "line": 50,
             "name": "genero un PDF \"Proyecto\"",
             "match": {
               "location": "features\\step_definitions\\steps_page_main.js:60"
             },
             "result": {
               "status": "passed",
-              "duration": 3235668600
+              "duration": 3259271799
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 45,
+            "line": 51,
             "name": "guardar \"documento_Prueba_Seccion_Proyectos\"",
             "match": {
               "location": "features\\step_definitions\\steps_page_main.js:105"
             },
             "result": {
               "status": "passed",
-              "duration": 393283800
+              "duration": 340632499
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 46,
+            "line": 52,
             "name": "cerrar",
             "match": {
               "location": "features\\step_definitions\\steps_page_main.js:53"
             },
             "result": {
               "status": "passed",
-              "duration": 74883900
+              "duration": 51342100
             }
           }
         ],
@@ -1233,36 +1320,40 @@
         "description": "",
         "id": "pagina-main;imagenes-estan-disponible-en-menos-de-5s-de-proyecto",
         "keyword": "Scenario",
-        "line": 48,
+        "line": 54,
         "name": "Imagenes estan disponible en menos de 5s de proyecto",
         "steps": [
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 49,
+            "line": 55,
             "name": "Estoy en la pagina principal \"proyectosSection\"",
             "match": {
               "location": "features\\step_definitions\\steps_page_main.js:13"
             },
             "result": {
               "status": "passed",
-              "duration": 1425884100
+              "duration": 1477874199
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 50,
-            "name": "Carga Imagenes en tiempo estimado",
+            "line": 56,
+            "name": "Carga Imagenes en tiempo estimado M",
+            "match": {
+              "location": "features\\step_definitions\\steps_page_main.js:116"
+            },
             "result": {
-              "status": "undefined",
-              "duration": 0
+              "status": "failed",
+              "duration": 274499,
+              "error_message": "ReferenceError: until is not defined\n    at World.<anonymous> (C:\\Univerdiad\\GitUniversidad\\AntoniToapanta_14569_G2_IR\\03_Pruebas_Aceptacion\\features\\step_definitions\\steps_page_main.js:120:7)"
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 51,
+            "line": 57,
             "name": "genero un PDF de como \"Imagenes carga en tiempo estimado\"",
             "match": {
               "location": "features\\step_definitions\\steps_productos.js:18"
@@ -1275,7 +1366,7 @@
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 52,
+            "line": 58,
             "name": "cerrar",
             "match": {
               "location": "features\\step_definitions\\steps_page_main.js:53"

@@ -7,6 +7,6 @@ Feature: Pagina detalles Proyecto
 
   Scenario: Imagenes estan disponible en menos de 5s
   Given Estoy en la pagina de  detalles Productos
-  Then Carga Imagenes en tiempo estimado 
+  Then Carga Imagenes en tiempo estimado Pr
   Then genero un PDF de como "Imagenes carga en tiempo estimado"
-  Then cerrar session Productos
+  Then cerrar session proyectos

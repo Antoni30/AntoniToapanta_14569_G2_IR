@@ -79,3 +79,18 @@ Then('cerrar session Productos', async function () {
     }
 });
 
+
+Then('Carga Imagenes en tiempo estimado P', async function () {
+    const startTime = new Date().getTime();
+    
+    const imageElement = await driver.wait(
+      until.elementLocated(By.css('img.about-image')), // Cambia el selector según la estructura de tu HTML
+      5000 // Timeout after 5 seconds
+    );
+  
+    const loadTime = new Date().getTime() - startTime;
+  
+    if (loadTime > 5000) {
+      throw new Error(`Las imágenes no cargaron dentro de los 5 segundos (Tomó ${loadTime} ms).`);
+    }
+  });
