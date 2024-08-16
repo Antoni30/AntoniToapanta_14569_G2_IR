@@ -18,8 +18,9 @@
               "location": "features\\step_definitions\\steps_about_us.js:12"
             },
             "result": {
-              "status": "passed",
-              "duration": 1410009599
+              "status": "failed",
+              "duration": 9795230900,
+              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (C:\\Univerdiad\\GitUniversidad\\AntoniToapanta_14569_G2_IR\\03_Pruebas_Aceptacion\\node_modules\\@cucumber\\cucumber\\lib\\time.js:54:20)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)"
             }
           },
           {
@@ -31,8 +32,8 @@
               "location": "features\\step_definitions\\steps_about_us.js:19"
             },
             "result": {
-              "status": "passed",
-              "duration": 3284808900
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -44,8 +45,68 @@
               "location": "features\\step_definitions\\steps_about_us.js:75"
             },
             "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "pagina-contactanos;imagenes-estan-disponible-en-menos-de-5s",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Imagenes estan disponible en menos de 5s",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "Estoy en la pagina de  detalles Productos",
+            "match": {
+              "location": "features\\step_definitions\\steps_productos.js:13"
+            },
+            "result": {
               "status": "passed",
-              "duration": 80667900
+              "duration": 2288637999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "Carga Imagenes en tiempo estimado",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "genero un PDF de como \"Imagenes carga en tiempo estimado\"",
+            "match": {
+              "location": "features\\step_definitions\\steps_productos.js:18"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "cerrar session Productos",
+            "match": {
+              "location": "features\\step_definitions\\steps_productos.js:74"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
             }
           }
         ],
@@ -80,7 +141,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1325594999
+              "duration": 1514014699
             }
           },
           {
@@ -93,7 +154,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3376221499
+              "duration": 3388250499
             }
           },
           {
@@ -106,7 +167,67 @@
             },
             "result": {
               "status": "passed",
-              "duration": 93495200
+              "duration": 84439299
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "pagina-detalles-producto;imagenes-estan-disponible-en-menos-de-5s",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Imagenes estan disponible en menos de 5s",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "Estoy en la pagina de  detalles Productos",
+            "match": {
+              "location": "features\\step_definitions\\steps_productos.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1430356299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "Carga Imagenes en tiempo estimado",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "genero un PDF de como \"Imagenes carga en tiempo estimado\"",
+            "match": {
+              "location": "features\\step_definitions\\steps_productos.js:18"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "cerrar session Productos",
+            "match": {
+              "location": "features\\step_definitions\\steps_productos.js:74"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
             }
           }
         ],
@@ -141,7 +262,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1439389900
+              "duration": 1312583800
             }
           },
           {
@@ -154,7 +275,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3353630900
+              "duration": 3397546399
             }
           },
           {
@@ -167,7 +288,67 @@
             },
             "result": {
               "status": "passed",
-              "duration": 82298200
+              "duration": 46342099
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "pagina-detalles-proyecto;imagenes-estan-disponible-en-menos-de-5s",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Imagenes estan disponible en menos de 5s",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "Estoy en la pagina de  detalles Productos",
+            "match": {
+              "location": "features\\step_definitions\\steps_productos.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1492826399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "Carga Imagenes en tiempo estimado",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "genero un PDF de como \"Imagenes carga en tiempo estimado\"",
+            "match": {
+              "location": "features\\step_definitions\\steps_productos.js:18"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "cerrar session Productos",
+            "match": {
+              "location": "features\\step_definitions\\steps_productos.js:74"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
             }
           }
         ],
@@ -202,7 +383,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1430485099
+              "duration": 1998176199
             }
           },
           {
@@ -215,7 +396,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3434241900
+              "duration": 3459151600
             }
           },
           {
@@ -228,7 +409,67 @@
             },
             "result": {
               "status": "passed",
-              "duration": 79205900
+              "duration": 79789500
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "pagina-deatalles-servicios;imagenes-estan-disponible-en-menos-de-5s",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Imagenes estan disponible en menos de 5s",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "Estoy en la pagina de  detalles Productos",
+            "match": {
+              "location": "features\\step_definitions\\steps_productos.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1475464400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "Carga Imagenes en tiempo estimado",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "genero un PDF de como \"Imagenes carga en tiempo estimado\"",
+            "match": {
+              "location": "features\\step_definitions\\steps_productos.js:18"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "cerrar session Productos",
+            "match": {
+              "location": "features\\step_definitions\\steps_productos.js:74"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
             }
           }
         ],
@@ -263,7 +504,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1495415800
+              "duration": 1561030299
             }
           },
           {
@@ -276,7 +517,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 457873600
+              "duration": 711809999
             }
           },
           {
@@ -289,7 +530,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 62938399
+              "duration": 109611800
             }
           },
           {
@@ -302,7 +543,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 25184599
+              "duration": 37945299
             }
           },
           {
@@ -315,7 +556,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 281011800
+              "duration": 329844400
             }
           }
         ],
@@ -339,7 +580,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1341824700
+              "duration": 1714159500
             }
           },
           {
@@ -352,7 +593,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 335800
+              "duration": 606099
             }
           },
           {
@@ -365,7 +606,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 143655800
+              "duration": 208201099
             }
           },
           {
@@ -378,7 +619,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 60901699
+              "duration": 83217699
             }
           },
           {
@@ -391,7 +632,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 27715499
+              "duration": 36682600
             }
           },
           {
@@ -404,7 +645,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 243648900
+              "duration": 386487900
             }
           }
         ],
@@ -428,7 +669,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1345635300
+              "duration": 1412337699
             }
           },
           {
@@ -441,7 +682,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 126445400
+              "duration": 156821299
             }
           },
           {
@@ -454,7 +695,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 115801200
+              "duration": 140359600
             }
           },
           {
@@ -467,7 +708,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 74385200
+              "duration": 90737600
             }
           },
           {
@@ -480,7 +721,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 390659599
+              "duration": 431504300
             }
           },
           {
@@ -493,7 +734,7 @@
             },
             "result": {
               "status": "failed",
-              "duration": 356800,
+              "duration": 485300,
               "error_message": "NoSuchSessionError: This driver instance does not have a valid session ID (did you call WebDriver.quit()?) and may no longer be used.\n    at C:\\Univerdiad\\GitUniversidad\\AntoniToapanta_14569_G2_IR\\03_Pruebas_Aceptacion\\node_modules\\selenium-webdriver\\lib\\webdriver.js:773:9\n    at Object.thenFinally [as finally] (C:\\Univerdiad\\GitUniversidad\\AntoniToapanta_14569_G2_IR\\03_Pruebas_Aceptacion\\node_modules\\selenium-webdriver\\lib\\promise.js:101:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async World.<anonymous> (C:\\Univerdiad\\GitUniversidad\\AntoniToapanta_14569_G2_IR\\03_Pruebas_Aceptacion\\features\\step_definitions\\steps_formulario.js:97:5)"
             }
           }
@@ -529,7 +770,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1433174900
+              "duration": 1568738199
             }
           },
           {
@@ -538,11 +779,11 @@
             "line": 5,
             "name": "genero un PDF \"About Us\"",
             "match": {
-              "location": "features\\step_definitions\\steps_page_main.js:44"
+              "location": "features\\step_definitions\\steps_page_main.js:60"
             },
             "result": {
               "status": "passed",
-              "duration": 3440622400
+              "duration": 3426352099
             }
           },
           {
@@ -551,11 +792,11 @@
             "line": 6,
             "name": "selecciones el boton de ver mas me dirige a la pagina del About Us",
             "match": {
-              "location": "features\\step_definitions\\steps_page_main.js:25"
+              "location": "features\\step_definitions\\steps_page_main.js:29"
             },
             "result": {
               "status": "passed",
-              "duration": 89220400
+              "duration": 77798499
             }
           },
           {
@@ -564,11 +805,11 @@
             "line": 7,
             "name": "genero un PDF \"About Us\"",
             "match": {
-              "location": "features\\step_definitions\\steps_page_main.js:44"
+              "location": "features\\step_definitions\\steps_page_main.js:60"
             },
             "result": {
               "status": "passed",
-              "duration": 3193647000
+              "duration": 3175999400
             }
           },
           {
@@ -577,11 +818,11 @@
             "line": 8,
             "name": "guardar \"documento_Prueba_Seccion_About_US\"",
             "match": {
-              "location": "features\\step_definitions\\steps_page_main.js:89"
+              "location": "features\\step_definitions\\steps_page_main.js:105"
             },
             "result": {
               "status": "passed",
-              "duration": 461004300
+              "duration": 427720399
             }
           },
           {
@@ -590,11 +831,11 @@
             "line": 9,
             "name": "cerrar",
             "match": {
-              "location": "features\\step_definitions\\steps_page_main.js:37"
+              "location": "features\\step_definitions\\steps_page_main.js:53"
             },
             "result": {
               "status": "passed",
-              "duration": 67200800
+              "duration": 79211199
             }
           }
         ],
@@ -618,7 +859,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1838803399
+              "duration": 1331444799
             }
           },
           {
@@ -627,11 +868,11 @@
             "line": 14,
             "name": "genero un PDF \"Servicios\"",
             "match": {
-              "location": "features\\step_definitions\\steps_page_main.js:44"
+              "location": "features\\step_definitions\\steps_page_main.js:60"
             },
             "result": {
               "status": "passed",
-              "duration": 3446463400
+              "duration": 3407422200
             }
           },
           {
@@ -644,7 +885,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 86376700
+              "duration": 70989199
             }
           },
           {
@@ -653,11 +894,11 @@
             "line": 16,
             "name": "genero un PDF \"Servicios\"",
             "match": {
-              "location": "features\\step_definitions\\steps_page_main.js:44"
+              "location": "features\\step_definitions\\steps_page_main.js:60"
             },
             "result": {
               "status": "passed",
-              "duration": 3362768900
+              "duration": 3396812799
             }
           },
           {
@@ -666,11 +907,11 @@
             "line": 17,
             "name": "guardar \"documento_Prueba_Seccion_Servicios\"",
             "match": {
-              "location": "features\\step_definitions\\steps_page_main.js:89"
+              "location": "features\\step_definitions\\steps_page_main.js:105"
             },
             "result": {
               "status": "passed",
-              "duration": 394967700
+              "duration": 473292699
             }
           },
           {
@@ -679,11 +920,71 @@
             "line": 18,
             "name": "cerrar",
             "match": {
-              "location": "features\\step_definitions\\steps_page_main.js:37"
+              "location": "features\\step_definitions\\steps_page_main.js:53"
             },
             "result": {
               "status": "passed",
-              "duration": 86192000
+              "duration": 83542000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "pagina-main;imagenes-estan-disponible-en-menos-de-5s-de-servicios",
+        "keyword": "Scenario",
+        "line": 20,
+        "name": "Imagenes estan disponible en menos de 5s de Servicios",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 21,
+            "name": "Estoy en la pagina principal \"servicioSection\"",
+            "match": {
+              "location": "features\\step_definitions\\steps_page_main.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1535657899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "Carga Imagenes en tiempo estimado",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 23,
+            "name": "genero un PDF de como \"Imagenes carga en tiempo estimado\"",
+            "match": {
+              "location": "features\\step_definitions\\steps_productos.js:18"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "cerrar",
+            "match": {
+              "location": "features\\step_definitions\\steps_page_main.js:53"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
             }
           }
         ],
@@ -694,85 +995,145 @@
         "description": "",
         "id": "pagina-main;al-seleccionar-el-boton-ver-se-dirigira-a-ala-pagina-productos",
         "keyword": "Scenario",
-        "line": 20,
+        "line": 26,
         "name": "Al seleccionar el boton ver se dirigira a ala pagina Productos",
         "steps": [
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 21,
+            "line": 27,
             "name": "Estoy en la pagina principal \"productoSection\"",
             "match": {
               "location": "features\\step_definitions\\steps_page_main.js:13"
             },
             "result": {
               "status": "passed",
-              "duration": 1430985000
+              "duration": 1899083400
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 22,
+            "line": 28,
             "name": "genero un PDF \"Productos\"",
             "match": {
-              "location": "features\\step_definitions\\steps_page_main.js:44"
+              "location": "features\\step_definitions\\steps_page_main.js:60"
             },
             "result": {
               "status": "passed",
-              "duration": 3347975600
+              "duration": 3363438699
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 23,
+            "line": 29,
             "name": "selecciones el boton de ver mas me dirige a la pagina del Productos",
-            "match": {
-              "location": "features\\step_definitions\\steps_page_main.js:29"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 82292099
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 24,
-            "name": "genero un PDF \"Productos\"",
-            "match": {
-              "location": "features\\step_definitions\\steps_page_main.js:44"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 3302950499
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 25,
-            "name": "guardar \"documento_Prueba_Seccion_Productos\"",
-            "match": {
-              "location": "features\\step_definitions\\steps_page_main.js:89"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 402678599
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 26,
-            "name": "cerrar",
             "match": {
               "location": "features\\step_definitions\\steps_page_main.js:37"
             },
             "result": {
               "status": "passed",
-              "duration": 102377399
+              "duration": 71139699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 30,
+            "name": "genero un PDF \"Productos\"",
+            "match": {
+              "location": "features\\step_definitions\\steps_page_main.js:60"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3348047599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 31,
+            "name": "guardar \"documento_Prueba_Seccion_Productos\"",
+            "match": {
+              "location": "features\\step_definitions\\steps_page_main.js:105"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 415081399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 32,
+            "name": "cerrar",
+            "match": {
+              "location": "features\\step_definitions\\steps_page_main.js:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 68379199
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "pagina-main;imagenes-estan-disponible-en-menos-de-5s-de-productos",
+        "keyword": "Scenario",
+        "line": 34,
+        "name": "Imagenes estan disponible en menos de 5s de productos",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 35,
+            "name": "Estoy en la pagina de  detalles Productos",
+            "match": {
+              "location": "features\\step_definitions\\steps_productos.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1371520400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 36,
+            "name": "Carga Imagenes en tiempo estimado",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 37,
+            "name": "genero un PDF de como \"Imagenes carga en tiempo estimado\"",
+            "match": {
+              "location": "features\\step_definitions\\steps_productos.js:18"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 38,
+            "name": "cerrar",
+            "match": {
+              "location": "features\\step_definitions\\steps_page_main.js:53"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
             }
           }
         ],
@@ -783,85 +1144,145 @@
         "description": "",
         "id": "pagina-main;al-seleccionar-el-boton-ver-se-dirigira-a-ala-pagina-proyectos",
         "keyword": "Scenario",
-        "line": 28,
+        "line": 40,
         "name": "Al seleccionar el boton ver se dirigira a ala pagina Proyectos",
         "steps": [
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 29,
+            "line": 41,
             "name": "Estoy en la pagina principal \"proyectosSection\"",
             "match": {
               "location": "features\\step_definitions\\steps_page_main.js:13"
             },
             "result": {
               "status": "passed",
-              "duration": 1375773300
+              "duration": 1968927100
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 30,
+            "line": 42,
             "name": "genero un PDF \"Proyecto\"",
             "match": {
-              "location": "features\\step_definitions\\steps_page_main.js:44"
+              "location": "features\\step_definitions\\steps_page_main.js:60"
             },
             "result": {
               "status": "passed",
-              "duration": 3332179099
+              "duration": 3326091199
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 31,
+            "line": 43,
             "name": "selecciones el boton de ver mas me dirige a la pagina del Proyectos",
             "match": {
-              "location": "features\\step_definitions\\steps_page_main.js:33"
+              "location": "features\\step_definitions\\steps_page_main.js:49"
             },
             "result": {
               "status": "passed",
-              "duration": 84741800
+              "duration": 85381999
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 32,
+            "line": 44,
             "name": "genero un PDF \"Proyecto\"",
             "match": {
-              "location": "features\\step_definitions\\steps_page_main.js:44"
+              "location": "features\\step_definitions\\steps_page_main.js:60"
             },
             "result": {
               "status": "passed",
-              "duration": 3201790600
+              "duration": 3235668600
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 33,
+            "line": 45,
             "name": "guardar \"documento_Prueba_Seccion_Proyectos\"",
             "match": {
-              "location": "features\\step_definitions\\steps_page_main.js:89"
+              "location": "features\\step_definitions\\steps_page_main.js:105"
             },
             "result": {
               "status": "passed",
-              "duration": 246005599
+              "duration": 393283800
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 34,
+            "line": 46,
             "name": "cerrar",
             "match": {
-              "location": "features\\step_definitions\\steps_page_main.js:37"
+              "location": "features\\step_definitions\\steps_page_main.js:53"
             },
             "result": {
               "status": "passed",
-              "duration": 91611200
+              "duration": 74883900
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "pagina-main;imagenes-estan-disponible-en-menos-de-5s-de-proyecto",
+        "keyword": "Scenario",
+        "line": 48,
+        "name": "Imagenes estan disponible en menos de 5s de proyecto",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 49,
+            "name": "Estoy en la pagina principal \"proyectosSection\"",
+            "match": {
+              "location": "features\\step_definitions\\steps_page_main.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1425884100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 50,
+            "name": "Carga Imagenes en tiempo estimado",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 51,
+            "name": "genero un PDF de como \"Imagenes carga en tiempo estimado\"",
+            "match": {
+              "location": "features\\step_definitions\\steps_productos.js:18"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 52,
+            "name": "cerrar",
+            "match": {
+              "location": "features\\step_definitions\\steps_page_main.js:53"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
             }
           }
         ],

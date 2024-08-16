@@ -22,12 +22,28 @@ When('selecciones el boton de ver mas me dirige a la pagina del Servicios', asyn
     await driver.findElement(By.id('services_slider_view_more_0')).click();
 });
 
+When('selecciones el boton de ver mas no dirige a la pagina del Servicios', async function () {
+    await driver.findElement(By.id('services_slider_view_more_0')).click();
+});
+
 When('selecciones el boton de ver mas me dirige a la pagina del About Us', async function () {
+    await driver.findElement(By.id('presentation_slider_view_more_0')).click();
+});
+
+When('selecciones el boton de ver mas no me dirige a la pagina del About Us', async function () {
     await driver.findElement(By.id('presentation_slider_view_more_0')).click();
 });
 
 When('selecciones el boton de ver mas me dirige a la pagina del Productos', async function () {
     await driver.findElement(By.id('products_0_slider_view_more_0')).click();
+});
+
+When('selecciones el boton de ver mas no me dirige a la pagina del Productos', async function () {
+    await driver.findElement(By.id('products_0_slider_view_more_0')).click();
+});
+
+When('selecciones el boton de ver mas no me dirige a la pagina del Proyectos', async function () {
+    await driver.findElement(By.id('projects_0_slider_view_more_0')).click();
 });
 
 When('selecciones el boton de ver mas me dirige a la pagina del Proyectos', async function () {
